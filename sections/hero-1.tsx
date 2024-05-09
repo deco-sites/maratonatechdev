@@ -20,7 +20,7 @@ export default function Section({ name = "Capy", color = "green" }: Props) {
         <input
           type="text"
           class="input input-bordered"
-          placeholder="Type something"
+          placeholder="Type something to change this repo"
         />
 
         <div class={`alert alert-${color}`}>
