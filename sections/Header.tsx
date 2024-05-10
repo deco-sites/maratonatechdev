@@ -43,7 +43,7 @@ export default function Header({
   },
 }: Nav) {
   return (
-    <nav class="drawer drawer-end">
+    <nav class="drawer drawer-end sticky top-0 w-full bg-pink-600 py-5 z-50 backdrop-blur-lg border-b-4 border-yellow-500">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
