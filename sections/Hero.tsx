@@ -40,6 +40,7 @@ export default function HeroFlats({
   ],
 }: Props) {
   return (
+    <section class="bg-slate-950">
     <nav class="lg:container lg:mx-auto mx-4">
       <div class="flex flex-col items-center gap-8">
         <div
@@ -61,7 +62,7 @@ export default function HeroFlats({
             />
           )}
           <div
-            class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 ${
+            class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 text-white ${
               image
                 ? "lg:w-1/2 lg:max-w-xl"
                 : "flex flex-col items-center justify-center lg:max-w-3xl"
@@ -84,7 +85,7 @@ export default function HeroFlats({
                   id={item?.id}
                   href={item?.href}
                   target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-primary ${
+                  class={`btn btn-primary text-sm lg:text-base p-3 bg-green-600 font-extrabold uppercase flex uppercase text-center justify-center bg-gradient-to-r from-blue-600 to-pink-600 p-3 rounded-2xl text-white uppercase font-extrabold flex items-center justify-center ${
                     item.outline && "btn-outline"
                   }`}
                 >
@@ -96,5 +97,6 @@ export default function HeroFlats({
         </div>
       </div>
     </nav>
+    </section>
   );
 }
