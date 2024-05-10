@@ -41,7 +41,7 @@ export default function HeroFlats({
   ],
 }: Props) {
   return (
-    <section class="bg-slate-950 pt-28" style="background: linear-gradient(0deg, rgba(2,6,23,1) 0%, rgba(2,6,23,0) 60%),url(https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/bg-hero.jpg);background-size: cover;">
+    <section class="bg-slate-950 pt-28 lg:min-h-[834px]" style="background: linear-gradient(0deg, rgba(2,6,23,1) 0%, rgba(2,6,23,0) 60%),url(https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/bg-hero.jpg);background-size: cover;">
     <nav class="lg:container mx-8 lg:mx-auto">
       <div class="flex flex-col items-center gap-8">
         <div
