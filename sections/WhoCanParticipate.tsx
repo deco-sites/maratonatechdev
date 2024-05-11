@@ -1,16 +1,7 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export interface CTA {
-  href: string;
-  text: string;
-  /** @format color-input */
-  color?: string;
-}
-
-export interface Props {
-  leftFloatingImage?: ImageWidget;
-  rightFloatingImage?: ImageWidget;
+export interface Card {
   /**
    * @format rich-text
    * @default Click here to tweak this text however you want.
@@ -21,98 +12,95 @@ export interface Props {
    * @default Click here to tweak this text however you want.
    */
   description?: string;
-  CTAs?: CTA[];
-  youtubeVideoId?: string;
+  /** @format color-input */
+  color?: string;
+}
+
+export interface Props {
+  desktopBackgroundImage?: ImageWidget;
+  mobileBackgroundImage?: ImageWidget;
+  /**
+   * @format rich-text
+   * @default Click here to tweak this text however you want.
+  */
+  title?: string;
+  cards?: Card[];
 }
 
 export default function WhoCanParticipate({
-  title = "A edição da Maratona Tech 2023 foi incrível!",
-  description =
-    "Relembre aqui como foi a cerimônia de premiação em Salvador, veja a lista dos vencedores e a incrível imersão tecnológica em São Paulo feita pelos estudantes medalhistas de ouro.",
-  rightFloatingImage = 'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/6f23911a-432b-4a13-b646-373682e3f6ab',
-  leftFloatingImage = 'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/349ac22c-3e75-4751-b226-9b90e0166f07',
-  CTAs = [
+  desktopBackgroundImage = 'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/e6f55904-0276-4040-8f57-c3b635e10ae9',
+  mobileBackgroundImage = 'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/14fae646-3035-4432-a351-6024ac2f9faa',
+  title = 'Quem pode se inscrever?',
+  cards = [
     {
-      href: '#',
-      text: 'Resultado vencedores 2023',
-      color: '#db2777'
+      title: 'Professores',
+      description: 'de Escolas Públicas e Privadas',
+      color: '#ec4899'
     },
     {
-      href: '#',
-      text: 'Imersão Tech São Paulo',
+      title: 'Nível 01',
+      description: '6º e 7º Ano',
+      color: '#eab308'
+    },
+    {
+      title: 'Nível 02',
+      description: '8º e 9º Ano',
+      color: '#3b82f6'
+    },
+    {
+      title: 'Nível 03',
+      description: 'Ensino Médio',
       color: '#a855f7'
     },
-    {
-      href: '#',
-      text: 'Fotos da Cerimônia de Premiação Salvador',
-      color: '#2563eb'
-    },
-  ],
-  youtubeVideoId = 'NpEaa2P7qZI'
+  ]
 }: Props) {
   return (
-    <div class="bg-purple-950 py-20 space-y-20 px-8 lg:px-0 text-white -skew-y-2 relative">
-      <Image
-        width={400}
-        class="absolute w-[200px] -top-[100px] -left-[90px] lg:left-0 lg:-bottom-[80px] lg:w-[300px]"
-        src={leftFloatingImage}
-        alt={leftFloatingImage}
-        decoding="async"
-        loading="lazy"
-      />
-      <Image
-        width={400}
-        class="absolute w-[200px] -top-[100px] right-0 lg:-top-[200px] lg:w-[300px] lg:right-0"
-        src={rightFloatingImage}
-        alt={rightFloatingImage}
-        decoding="async"
-        loading="lazy"
-      />
-      <div class="skew-y-2">
-        <div class="lg:w-10/12 mx-auto">
-          <div class="my-5 grid lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <h1 class="text-3xl font-sora font-bold text-yellow-500">{title}</h1>
-              <div class="space-y-3">
-                <div dangerouslySetInnerHTML={{
-                  __html: description,
-                }}></div>
-              </div>
-              <div class="grid lg:grid-cols-1 gap-3 my-5">
-                {
-                  CTAs.map(cta => (
-                    <a 
-                      href={cta.href}
-                      class={`p-3 rounded-xl text-white flex text-center justify-center items-center font-bold`}
-                      target={cta.href.includes("http") ? "_blank" : "_self"}
-                      style={{
-                        backgroundColor: cta.color
-                      }}
-                    >
-                      {cta.text}
-                    </a>
-                  ))
-                }
-              </div>
-            </div>
-            <div style={{
-              position: 'relative',
-              width: '100%',
-              paddingBottom: '56.25%',
-              height: 0,
-              overflow: 'hidden'
-            }}>
-              <iframe style={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                width: '100%',
-                height: '100%',
-              }} width="966" height="543" src={"https://www.youtube.com/embed/" + youtubeVideoId} title="video placeholder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen={true}></iframe>
+    <>
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          .quem-pode{
+            background-color: rgb(2,6,23);
+            background: linear-gradient(90deg, rgba(2,6,23,0) 0%, rgba(2,6,23,1) 60%),url('${desktopBackgroundImage}');
+            background-size: cover;
+            background-position: top center;
+          }
+          /* MOBILE */
+          @media only screen and (max-width: 600px) {
+            .quem-pode{
+              background-color: rgb(1,17,43)!important;
+              background: linear-gradient(0deg, rgba(1,17,43,0) 100%, rgba(1,17,43,1) 0%),url('${mobileBackgroundImage}');
+              background-size: contain;
+              background-position: bottom center;
+              background-repeat: no-repeat;
+            } 
+          }  
+        `,
+      }} />
+      <div 
+        class="quem-pode bg-slate-950 py-20 space-y-10 px-10 lg:px-0 text-white -mt-10 min-h-[1200px] lg:min-h-[450px] flex lg:items-center justify-end -skew-y-2"
+      >
+        <div class="lg:w-10/12 mx-auto flex justify-end skew-y-2">
+          <div class="lg:w-6/12">
+            <h1 class="text-3xl font-sora font-bold text-center" dangerouslySetInnerHTML={{
+              __html: title
+            }} />
+            <div class="grid lg:grid-cols-2 gap-3 my-8">
+              {
+                cards.map(card => (
+                  <div style={{
+                    borderColor: card.color
+                  }} class="text-center lg:text-left rounded-2xl p-8 border">
+                    <h1 style={{
+                      color: card.color
+                    }} class="text-2xl font-bold font-sora">{card.title}</h1>
+                    <p>{card.description}</p>
+                  </div>
+                ))
+              }
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
