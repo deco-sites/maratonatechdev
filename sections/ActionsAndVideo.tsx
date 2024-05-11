@@ -83,8 +83,11 @@ export default function ActionsAndVideo({
                   CTAs.map(cta => (
                     <a 
                       href={cta.href}
-                      class={`bg-[${cta.color}] p-3 rounded-xl text-white flex text-center justify-center items-center font-bold`}
+                      class={`p-3 rounded-xl text-white flex text-center justify-center items-center font-bold`}
                       target={cta.href.includes("http") ? "_blank" : "_self"}
+                      style={{
+                        backgroundColor: cta.color
+                      }}
                     >
                       {cta.text}
                     </a>
