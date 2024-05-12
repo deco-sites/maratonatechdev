@@ -46,8 +46,8 @@ export interface Props {
   topFloatingImage?: ImageWidget;
   rightMiddleFloatingImage?: ImageWidget;
   bottomFloatingImage?: ImageWidget;
-  media: Media;
-  awards: Awards;
+  media?: Media;
+  awards?: Awards;
 }
 
 export default function MediaAndAwards({
