@@ -46,6 +46,7 @@ export interface Testimonial {
 
 export interface Props {
   anchorId?: string;
+  anchorIdTestimonials?: string;
   infos?: Info[];
   leftFloatingImage?: ImageWidget;
   rightFloatingImage?: ImageWidget;
@@ -134,7 +135,8 @@ export default function ImpactAndTestimonials({
     description: 'Vários Alunos'
    }
   ],
-  anchorId = ''
+  anchorId = '',
+  anchorIdTestimonials = ''
 }: Props) {
   return (
     <section class="bg-pink-600 border-t-4 border-yellow-500 py-10 -my-8 px-8 lg:px-0 text-white -skew-y-2 relative">
@@ -219,7 +221,7 @@ export default function ImpactAndTestimonials({
         <div class="lg:w-4/12 mx-auto">
           <a href={cta.href} class="text-sm lg:text-base p-3 bg-green-600 font-extrabold uppercase flex uppercase text-center justify-center bg-gradient-to-r from-purple-800 to-purple-600 p-3 rounded-2xl text-white uppercase font-extrabold flex items-center justify-center">{cta.text}</a>
         </div>
-        <div class="lg:w-10/12 mx-auto">
+        <div id={anchorIdTestimonials} class="lg:w-10/12 mx-auto">
           <h1 class="text-3xl text-center font-sora font-bold text-yellow-500" dangerouslySetInnerHTML={{
             __html: testimonialTitle,
           }}></h1>
