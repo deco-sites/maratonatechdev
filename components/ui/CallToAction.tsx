@@ -12,8 +12,7 @@ export interface Props {
    */
   title?: string;
   /**
-   * @description Display Partners Logos.
-   * @title {{{alt}}}
+   * @description CTA button.
    */
   button?: {
     label?: string;
@@ -23,11 +22,11 @@ export interface Props {
 
 export default function Section(
   {
-    title = "Quem faz a Maratona Tech",
+    title = "A sua empresa também quer patrocinar a Maratona Tech 2024?",
     button = {
       label:
-        "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/parana.png",
-      href: "accenture",
+        "Fale com um consultor clicando aqui",
+      href: "/",
     },
   }: Props,
 ) {
