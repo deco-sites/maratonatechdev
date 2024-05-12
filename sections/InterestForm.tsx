@@ -34,7 +34,7 @@ interface Props {
           <h1 class="text-3xl text-center font-sora font-bold text-yellow-500">
             {title}
           </h1>
-          <p class="text-center">
+          <p class="text-center pt-2">
             {description}
           </p>
           <div class="my-5 space-y-3 lg:w-10/12 mx-auto">
