@@ -17,7 +17,8 @@ const DEFAULT_IMAGE =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9";
 
 export default function BlogPosts({
-  title = "<h1 class='text-2xl lg:text-3xl font-bold text-center mb-4 font-sora text-purple-800'>Ficou com alguma <span class='underline decoration-pink-600 decoration-wavy'>dúvida?</span></h1>",
+  title =
+    "<h1 class='text-2xl lg:text-3xl font-bold text-center font-sora text-purple-800'>Ficou com alguma <span class='underline decoration-pink-600 decoration-wavy'>dúvida?</span></h1>",
   questions = [
     {
       title: "Qual o objetivo da Maratona Tech?",
@@ -50,7 +51,8 @@ export default function BlogPosts({
         "Na fase 1, o(a) professor(a) aplicará o desafio com as suas turmas e selecionará os representantes para a fase 2. Já na fase seguinte, ele(a) terá o papel de apoiar o engajamento e desenvolvimento dos estudantes.",
     },
     {
-      title: "Não tenho conhecimento nenhum sobre tecnologia, posso participar?",
+      title:
+        "Não tenho conhecimento nenhum sobre tecnologia, posso participar?",
       answer:
         "Sim. O programa visa apresentar o mundo da tecnologia e despertar nos jovens o desejo de ingressar na carreira tech, não sendo necessário conhecimento prévio sobre o tema.",
     },
@@ -58,17 +60,21 @@ export default function BlogPosts({
 }: Props) {
   return (
     <div class="lg:w-8/12 mx-auto px-5 lg:px-0">
-      <div class="flex flex-col gap-10 lg:gap-20 justify-between">
-          <div class="text-center"
+      <div class="flex flex-col gap-8 justify-between">
+        <div
+          class="text-center"
           dangerouslySetInnerHTML={{
             __html: title,
-          }}/>
-        <div class="grid gap-2 my-8">
+          }}
+        />
+        <div class="flex flex-col gap-2">
           {questions?.map((question) => (
-            <details class="tab w-full overflow-hidden border border-purple-800 col-span-2 sm:col-span-1 rounded-lg bg-white/[.05] group">
-              <summary class="text-lg cursor-pointer py-6 flex ">
-                <span class="block p-5 leading-normal cursor-pointer">{question.title}</span>
-                <span class="flex-none transition group-open:rotate-180 circle">
+            <details class="w-full p-5 border border-purple-800 col-span-2 sm:col-span-1 rounded-lg bg-white/[.05] group">
+              <summary class="text-[1rem] leading-normal cursor-pointer flex">
+                <span class="flex-auto group-open:text-[#22C55E]">
+                  {question.title}
+                </span>
+                <span class="flex-none transition group-open:rotate-180">
                   <svg
                     width="32"
                     height="33"
@@ -85,7 +91,7 @@ export default function BlogPosts({
                 </span>
               </summary>
               <p
-                class="leading-relaxed mb-6 group-open:animate-fadeIn"
+                class="leading-relaxed mt-3 group-open:animate-fadeIn"
                 dangerouslySetInnerHTML={{ __html: question.answer }}
               >
               </p>
