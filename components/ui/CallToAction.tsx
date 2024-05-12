@@ -12,8 +12,7 @@ export interface Props {
    */
   title?: string;
   /**
-   * @description Display Partners Logos.
-   * @title {{{alt}}}
+   * @description CTA button.
    */
   button?: {
     label?: string;
