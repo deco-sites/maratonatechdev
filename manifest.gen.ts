@@ -7,55 +7,54 @@ import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/AboutMarathon.tsx";
 import * as $$$$$$1 from "./sections/ActionsAndVideo.tsx";
 import * as $$$$$$2 from "./sections/BlogPosts.tsx";
-import * as $$$$$$3 from "./sections/Faq.tsx";
-import * as $$$$$$4 from "./sections/Footer.tsx";
-import * as $$$$$$5 from "./sections/Header.tsx";
-import * as $$$$$$20 from "./sections/hero-1.tsx";
-import * as $$$$$$21 from "./sections/hero-2.tsx";
-import * as $$$$$$19 from "./sections/hero-1.tsx";
-import * as $$$$$$20 from "./sections/hero-2.tsx";
-import * as $$$$$$6 from "./sections/Hero.tsx";
-import * as $$$$$$22 from "./sections/hero2.tsx";
-import * as $$$$$$21 from "./sections/hero2.tsx";
-import * as $$$$$$7 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$8 from "./sections/ImpactAndTestimonials.tsx";
-import * as $$$$$$9 from "./sections/InterestForm.tsx";
-import * as $$$$$$10 from "./sections/Logos.tsx";
-import * as $$$$$$11 from "./sections/MediaAndAwards.tsx";
-import * as $$$$$$12 from "./sections/Partners.tsx";
-import * as $$$$$$13 from "./sections/Schedule.tsx";
-import * as $$$$$$14 from "./sections/Sponsors.tsx";
-import * as $$$$$$15 from "./sections/Support.tsx";
-import * as $$$$$$16 from "./sections/Testimonials.tsx";
-import * as $$$$$$17 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$18 from "./sections/WhoCanParticipate.tsx";
-import * as $$$$$$19 from "./sections/WhoMadeIt.tsx";
+import * as $$$$$$3 from "./sections/CallToAction.tsx";
+import * as $$$$$$4 from "./sections/Faq.tsx";
+import * as $$$$$$5 from "./sections/Footer.tsx";
+import * as $$$$$$6 from "./sections/Header.tsx";
+import * as $$$$$$21 from "./sections/hero-1.tsx";
+import * as $$$$$$22 from "./sections/hero-2.tsx";
+import * as $$$$$$7 from "./sections/Hero.tsx";
+import * as $$$$$$23 from "./sections/hero2.tsx";
+import * as $$$$$$8 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$9 from "./sections/ImpactAndTestimonials.tsx";
+import * as $$$$$$10 from "./sections/InterestForm.tsx";
+import * as $$$$$$11 from "./sections/Logos.tsx";
+import * as $$$$$$12 from "./sections/MediaAndAwards.tsx";
+import * as $$$$$$13 from "./sections/Partners.tsx";
+import * as $$$$$$14 from "./sections/Schedule.tsx";
+import * as $$$$$$15 from "./sections/Sponsors.tsx";
+import * as $$$$$$16 from "./sections/Support.tsx";
+import * as $$$$$$17 from "./sections/Testimonials.tsx";
+import * as $$$$$$18 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$19 from "./sections/WhoCanParticipate.tsx";
+import * as $$$$$$20 from "./sections/WhoMadeIt.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/AboutMarathon.tsx": $$$$$$0,
     "site/sections/ActionsAndVideo.tsx": $$$$$$1,
     "site/sections/BlogPosts.tsx": $$$$$$2,
-    "site/sections/Faq.tsx": $$$$$$3,
-    "site/sections/Footer.tsx": $$$$$$4,
-    "site/sections/Header.tsx": $$$$$$5,
-    "site/sections/hero-1.tsx": $$$$$$20,
-    "site/sections/hero-2.tsx": $$$$$$21,
-    "site/sections/Hero.tsx": $$$$$$6,
-    "site/sections/hero2.tsx": $$$$$$22,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$7,
-    "site/sections/ImpactAndTestimonials.tsx": $$$$$$8,
-    "site/sections/InterestForm.tsx": $$$$$$9,
-    "site/sections/Logos.tsx": $$$$$$10,
-    "site/sections/MediaAndAwards.tsx": $$$$$$11,
-    "site/sections/Partners.tsx": $$$$$$12,
-    "site/sections/Schedule.tsx": $$$$$$13,
-    "site/sections/Sponsors.tsx": $$$$$$14,
-    "site/sections/Support.tsx": $$$$$$15,
-    "site/sections/Testimonials.tsx": $$$$$$16,
-    "site/sections/Theme/Theme.tsx": $$$$$$17,
-    "site/sections/WhoCanParticipate.tsx": $$$$$$18,
-    "site/sections/WhoMadeIt.tsx": $$$$$$19,
+    "site/sections/CallToAction.tsx": $$$$$$3,
+    "site/sections/Faq.tsx": $$$$$$4,
+    "site/sections/Footer.tsx": $$$$$$5,
+    "site/sections/Header.tsx": $$$$$$6,
+    "site/sections/hero-1.tsx": $$$$$$21,
+    "site/sections/hero-2.tsx": $$$$$$22,
+    "site/sections/Hero.tsx": $$$$$$7,
+    "site/sections/hero2.tsx": $$$$$$23,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$8,
+    "site/sections/ImpactAndTestimonials.tsx": $$$$$$9,
+    "site/sections/InterestForm.tsx": $$$$$$10,
+    "site/sections/Logos.tsx": $$$$$$11,
+    "site/sections/MediaAndAwards.tsx": $$$$$$12,
+    "site/sections/Partners.tsx": $$$$$$13,
+    "site/sections/Schedule.tsx": $$$$$$14,
+    "site/sections/Sponsors.tsx": $$$$$$15,
+    "site/sections/Support.tsx": $$$$$$16,
+    "site/sections/Testimonials.tsx": $$$$$$17,
+    "site/sections/Theme/Theme.tsx": $$$$$$18,
+    "site/sections/WhoCanParticipate.tsx": $$$$$$19,
+    "site/sections/WhoMadeIt.tsx": $$$$$$20,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
