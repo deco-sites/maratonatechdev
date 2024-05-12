@@ -1,13 +1,6 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export interface CTA {
-  id?: string;
-  href: string;
-  text: string;
-  outline?: boolean;
-}
-
 export interface Question {
   title: string;
   /** @format rich-text */
@@ -15,9 +8,8 @@ export interface Question {
 }
 
 export interface Props {
+  /** @format rich-text */
   title?: string;
-  description?: string;
-  cta?: CTA;
   questions?: Question[];
 }
 
@@ -25,66 +17,58 @@ const DEFAULT_IMAGE =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9";
 
 export default function BlogPosts({
-  title = "FAQs",
-  description =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-  cta = { id: "change-me", href: "/", text: "Change me", outline: true },
+  title = "<h1 class='text-2xl lg:text-3xl font-bold text-center mb-4 font-sora text-purple-800'>Ficou com alguma <span class='underline decoration-pink-600 decoration-wavy'>dúvida?</span></h1>",
   questions = [
     {
-      title: "Question #1 text goes here",
+      title: "Qual o objetivo da Maratona Tech?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut vestibulum ligula. Nam et tellus sit amet magna convallis interdum. Integer fermentum ligula nec velit hendrerit, quis feugiat odio feugiat. Ut vel nisi auctor, rhoncus felis vitae, tempor metus. Fusce ut lectus et ex consectetur ullamcorper. Nulla facilisi. Proin ullamcorper, odio a consectetur posuere, mauris felis rutrum lectus, et convallis est risus vitae nisi. Suspendisse potenti. Donec ultricies consectetur lorem, eget tempor nisi cursus in. Vivamus at nulla eros. Sed nec malesuada mauris. Curabitur id ex sed neque rutrum tincidunt. Sed sed lectus nec libero eleifend luctus. Aenean convallis feugiat elit, non tincidunt eros vehicula sed. Phasellus pretium urna sit amet risus interdum tempor.",
+        "A Maratona Tech é uma jornada de aprendizagem cujo objetivo é despertar o interesse de jovens para o mundo da tecnologia por meio de desafios de pensamento computacional e lógica, além de desenvolver o protagonismo juvenil.",
     },
     {
-      title: "Question #2 text goes here",
+      title: "Como vai funcionar a Maratona Tech?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut vestibulum ligula. Nam et tellus sit amet magna convallis interdum. Integer fermentum ligula nec velit hendrerit, quis feugiat odio feugiat. Ut vel nisi auctor, rhoncus felis vitae, tempor metus. Fusce ut lectus et ex consectetur ullamcorper. Nulla facilisi. Proin ullamcorper, odio a consectetur posuere, mauris felis rutrum lectus, et convallis est risus vitae nisi. Suspendisse potenti. Donec ultricies consectetur lorem, eget tempor nisi cursus in. Vivamus at nulla eros. Sed nec malesuada mauris. Curabitur id ex sed neque rutrum tincidunt. Sed sed lectus nec libero eleifend luctus. Aenean convallis feugiat elit, non tincidunt eros vehicula sed. Phasellus pretium urna sit amet risus interdum tempor.",
+        "Ela ocorrerá em duas fases. Na primeira, haverá uma formação para professores representantes de cada escola para eles aplicarem um desafio relacionado a projeto de vida e carreiras em tecnologia. Já na segunda fase, os estudantes deverão responder a quizes via WhatsApp, além de receberem conteúdos relacionados a pensamento computacional e lógica.",
     },
     {
-      title: "Question #3 text goes here",
+      title: "Qual é o cronograma da Maratona Tech?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut vestibulum ligula. Nam et tellus sit amet magna convallis interdum. Integer fermentum ligula nec velit hendrerit, quis feugiat odio feugiat. Ut vel nisi auctor, rhoncus felis vitae, tempor metus. Fusce ut lectus et ex consectetur ullamcorper. Nulla facilisi. Proin ullamcorper, odio a consectetur posuere, mauris felis rutrum lectus, et convallis est risus vitae nisi. Suspendisse potenti. Donec ultricies consectetur lorem, eget tempor nisi cursus in. Vivamus at nulla eros. Sed nec malesuada mauris. Curabitur id ex sed neque rutrum tincidunt. Sed sed lectus nec libero eleifend luctus. Aenean convallis feugiat elit, non tincidunt eros vehicula sed. Phasellus pretium urna sit amet risus interdum tempor.",
+        "Período de inscrição - 20/maio a 04/ago | Fase 1 - 12/ago até 15/set | Fase 2 - 30/set até 13/out | Cerimônia de Premiação - 27/nov",
     },
     {
-      title: "Question #4 text goes here",
+      title: "Preciso pagar alguma coisa?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut vestibulum ligula. Nam et tellus sit amet magna convallis interdum. Integer fermentum ligula nec velit hendrerit, quis feugiat odio feugiat. Ut vel nisi auctor, rhoncus felis vitae, tempor metus. Fusce ut lectus et ex consectetur ullamcorper. Nulla facilisi. Proin ullamcorper, odio a consectetur posuere, mauris felis rutrum lectus, et convallis est risus vitae nisi. Suspendisse potenti. Donec ultricies consectetur lorem, eget tempor nisi cursus in. Vivamus at nulla eros. Sed nec malesuada mauris. Curabitur id ex sed neque rutrum tincidunt. Sed sed lectus nec libero eleifend luctus. Aenean convallis feugiat elit, non tincidunt eros vehicula sed. Phasellus pretium urna sit amet risus interdum tempor.",
+        "Não, todas as formações e acesso às plataformas será gratuito e direcionada para o público de cada fase.",
     },
     {
-      title: "Question #5 text goes here",
+      title: "O que é preciso para participar?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut vestibulum ligula. Nam et tellus sit amet magna convallis interdum. Integer fermentum ligula nec velit hendrerit, quis feugiat odio feugiat. Ut vel nisi auctor, rhoncus felis vitae, tempor metus. Fusce ut lectus et ex consectetur ullamcorper. Nulla facilisi. Proin ullamcorper, odio a consectetur posuere, mauris felis rutrum lectus, et convallis est risus vitae nisi. Suspendisse potenti. Donec ultricies consectetur lorem, eget tempor nisi cursus in. Vivamus at nulla eros. Sed nec malesuada mauris. Curabitur id ex sed neque rutrum tincidunt. Sed sed lectus nec libero eleifend luctus. Aenean convallis feugiat elit, non tincidunt eros vehicula sed. Phasellus pretium urna sit amet risus interdum tempor.",
+        "É necessário que se tenha acesso a um dispositivo com WhatsApp para a realização das atividades. Caso não o tenha, o(a) participante poderá utilizar o aparelho de outra pessoa (familiar, amigo) que não esteja inscrito na Maratona Tech, uma vez que cada número de WhatsApp só pode estar associado a um único participante.",
+    },
+    {
+      title: "Qual é o papel do(a) professor(a) durante a Maratona?",
+      answer:
+        "Na fase 1, o(a) professor(a) aplicará o desafio com as suas turmas e selecionará os representantes para a fase 2. Já na fase seguinte, ele(a) terá o papel de apoiar o engajamento e desenvolvimento dos estudantes.",
+    },
+    {
+      title: "Não tenho conhecimento nenhum sobre tecnologia, posso participar?",
+      answer:
+        "Sim. O programa visa apresentar o mundo da tecnologia e despertar nos jovens o desejo de ingressar na carreira tech, não sendo necessário conhecimento prévio sobre o tema.",
     },
   ],
 }: Props) {
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm py-12 lg:py-28">
-      <div class="flex flex-col lg:flex-row gap-10 lg:gap-20 justify-between">
-        <div class="flex-none space-y-6 lg:w-2/5">
-          <p class="text-4xl leading-snug">
-            {title}
-          </p>
-          <p class="text-lg">
-            {description}
-          </p>
-          <a
-            key={cta?.id}
-            id={cta?.id}
-            href={cta?.href}
-            target={cta?.href.includes("http") ? "_blank" : "_self"}
-            class={`font-normal btn btn-primary ${
-              cta.outline && "btn-outline"
-            }`}
-          >
-            {cta?.text}
-          </a>
-        </div>
-        <div class="flex-auto border-primary border-t">
+    <div class="lg:w-8/12 mx-auto px-5 lg:px-0">
+      <div class="flex flex-col gap-10 lg:gap-20 justify-between">
+          <div class="text-center"
+          dangerouslySetInnerHTML={{
+            __html: title,
+          }}/>
+        <div class="grid gap-2 my-8">
           {questions?.map((question) => (
-            <details class="border-primary border-b group">
+            <details class="tab w-full overflow-hidden border border-purple-800 col-span-2 sm:col-span-1 rounded-lg bg-white/[.05] group">
               <summary class="text-lg cursor-pointer py-6 flex ">
-                <span class="flex-auto">{question.title}</span>
-                <span class="flex-none transition group-open:rotate-180">
+                <span class="block p-5 leading-normal cursor-pointer">{question.title}</span>
+                <span class="flex-none transition group-open:rotate-180 circle">
                   <svg
                     width="32"
                     height="33"
