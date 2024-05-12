@@ -117,7 +117,7 @@ export default function Section(
   return (
     <div class="lg:w-8/12 mx-auto">
       <div class="pt-10 pb-20 px-8 lg:px-0">
-        <h3 class="text-2xl text-center font-sora font-bold text-purple-800 mb-5">
+        <h3 class="text-2xl text-center font-sora font-bold text-purple-800 mb-10">
           {title}
         </h3>
         <img
