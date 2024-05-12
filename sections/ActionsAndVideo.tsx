@@ -9,6 +9,7 @@ export interface CTA {
 }
 
 export interface Props {
+  anchorId?: string;
   leftFloatingImage?: ImageWidget;
   rightFloatingImage?: ImageWidget;
   /**
@@ -48,10 +49,11 @@ export default function ActionsAndVideo({
       color: '#2563eb'
     },
   ],
+  anchorId = '',
   youtubeVideoId = 'NpEaa2P7qZI'
 }: Props) {
   return (
-    <div class="bg-purple-950 py-20 space-y-20 px-8 lg:px-0 text-white -skew-y-2 relative">
+    <div id={anchorId} class="bg-purple-950 py-20 space-y-20 px-8 lg:px-0 text-white -skew-y-2 relative">
       <Image
         width={400}
         class="absolute w-[200px] -top-[100px] -left-[90px] lg:left-0 lg:-bottom-[80px] lg:w-[300px]"

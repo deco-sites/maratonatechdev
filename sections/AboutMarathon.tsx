@@ -13,6 +13,7 @@ export interface Phase {
 }
 
 export interface Props {
+  anchorId?: string;
   title?: string;
   titleGradient?: string;
   /**
@@ -37,10 +38,11 @@ export default function AboutMarathon({
       title: "30 de setembro a 13 de outubro de 2023",
       description: "A fase final da competição inclui ciclos de aprendizagem sobre pensamento computacional, auxiliados …” por “Estudantes recebem, individualmente pelo Zeca, nosso chatbot do WhatsApp, 8 ciclos de conteúdo de pensamento computacional e lógica. Ao final de cada ciclo, eles respondem um quiz de 6 a 8 questões. A partir do desempenho nos quizzes, os alunos são premiados, recebendo medalhas, bolsas de estudo em cursos de tecnologia, certificados e convite para o Conexão Futuro.",
     }
-  ]
+  ],
+  anchorId = ""
 }: Props) {
   return (
-    <nav class="bg-slate-950 pt-20 pb-36 space-y-10 text-white px-8 lg:px-0">
+    <nav id={anchorId} class="bg-slate-950 pt-20 pb-36 space-y-10 text-white px-8 lg:px-0">
       <div class="lg:w-8/12 mx-auto">
         <h1 class="text-xl lg:text-4xl text-center font-sora">
           <span

@@ -45,6 +45,7 @@ export interface Testimonial {
 }
 
 export interface Props {
+  anchorId?: string;
   infos?: Info[];
   leftFloatingImage?: ImageWidget;
   rightFloatingImage?: ImageWidget;
@@ -132,7 +133,8 @@ export default function ImpactAndTestimonials({
     youtubeId: 'NpEaa2P7qZI',
     description: 'Vários Alunos'
    }
-  ]
+  ],
+  anchorId = ''
 }: Props) {
   return (
     <section class="bg-pink-600 border-t-4 border-yellow-500 py-10 -my-8 px-8 lg:px-0 text-white -skew-y-2 relative">

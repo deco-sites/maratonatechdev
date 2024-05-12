@@ -43,6 +43,7 @@ export interface Awards {
 }
 
 export interface Props {
+  anchorId?: string;
   topFloatingImage?: ImageWidget;
   rightMiddleFloatingImage?: ImageWidget;
   bottomFloatingImage?: ImageWidget;
@@ -51,6 +52,7 @@ export interface Props {
 }
 
 export default function MediaAndAwards({
+  anchorId = "",
   topFloatingImage = 'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/52483561-be2e-4090-bdf0-377a15259c4c',
   rightMiddleFloatingImage = 'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/0be49edf-03fc-4887-8a70-64a907b4362b',
   bottomFloatingImage = 'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/95935472-e0ce-4598-bb4f-03ebea2ef4b5',
@@ -131,7 +133,7 @@ export default function MediaAndAwards({
   }
 }: Props) {
   return (
-    <div class="bg-slate-950 pt-20 pb-36 space-y-20 text-white px-8 lg:px-0 -mt-10 relative">
+    <div id={anchorId} class="bg-slate-950 pt-20 pb-36 space-y-20 text-white px-8 lg:px-0 -mt-10 relative">
       <Image
         width={400}
         class="absolute w-[150px] -bottom-[50px] -left-[50px] lg:left-0 lg:-bottom-[80px] lg:w-[300px]"
