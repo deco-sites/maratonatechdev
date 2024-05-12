@@ -20,7 +20,7 @@ interface Props {
 
 export default function Section(
   {
-    title = "Quem faz a Maratona Tech",
+    title = "Parceiros Públicos",
     partners = [
       {
         logo:
@@ -34,7 +34,7 @@ export default function Section(
       },
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/salvador.png",
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/mato-grosso.png",
         alt: "accenture",
       },
       {

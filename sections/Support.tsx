@@ -20,46 +20,46 @@ interface Props {
 
 export default function Section(
   {
-    title = "Quem faz a Maratona Tech",
+    title = "Apoio",
     supporters = [
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/parana.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/insper-women-in-tech_branco.png",
             alt: "accenture",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/rio-grande-sul.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/arco.png",
             alt: "accenture",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/salvador.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/chat.png",
             alt: "accenture",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/salvador.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/programa.png",
             alt: "accenture",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/santa-catarina.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/Inteli-Logo.png",
             alt: "Mercado Livre",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/pernambuco.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/cyber.png",
             alt: "accenture",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/fortaleza.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/programaria.png",
             alt: "accenture",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/tocantins.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/rocketseat.webp",
             alt: "accenture",
           },
     ],
