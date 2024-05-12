@@ -22,46 +22,46 @@ export default function Section(
   {
     title = "Quem faz a Maratona Tech",
     partners = [
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/parana.png",
-            alt: "accenture",
-          },
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/rio-grande-sul.png",
-            alt: "accenture",
-          },
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/salvador.png",
-            alt: "accenture",
-          },
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/salvador.png",
-            alt: "accenture",
-          },
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/santa-catarina.png",
-            alt: "Mercado Livre",
-          },
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/pernambuco.png",
-            alt: "accenture",
-          },
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/fortaleza.png",
-            alt: "accenture",
-          },
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/tocantins.png",
-            alt: "accenture",
-          },
+      {
+        logo:
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/parana.png",
+        alt: "accenture",
+      },
+      {
+        logo:
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/rio-grande-sul.png",
+        alt: "accenture",
+      },
+      {
+        logo:
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/salvador.png",
+        alt: "accenture",
+      },
+      {
+        logo:
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/salvador.png",
+        alt: "accenture",
+      },
+      {
+        logo:
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/santa-catarina.png",
+        alt: "Mercado Livre",
+      },
+      {
+        logo:
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/pernambuco.png",
+        alt: "accenture",
+      },
+      {
+        logo:
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/fortaleza.png",
+        alt: "accenture",
+      },
+      {
+        logo:
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/tocantins.png",
+        alt: "accenture",
+      },
     ],
   }: Props,
 ) {
@@ -72,14 +72,14 @@ export default function Section(
           {title}
         </h3>
         <ul class="my-10 flex flex-wrap justify-center items-center gap-8">
-        {partners?.map((partner) => (
-              <li class="w-[150px] p-3">
-                <img
-                  src={partner.logo}
-                  alt={partner.alt}
-                />
-              </li>
-        ))}
+          {partners?.map((partner) => (
+            <li class="w-[150px] p-3">
+              <img
+                src={partner.logo}
+                alt={partner.alt}
+              />
+            </li>
+          ))}
         </ul>
       </div>
     </div>
