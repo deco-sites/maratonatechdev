@@ -59,7 +59,7 @@ export default function BlogPosts({
   ],
 }: Props) {
   return (
-    <div class="lg:w-8/12 mx-auto px-5 lg:px-0">
+    <div class="lg:w-8/12 pb-20 mx-auto px-5 lg:px-0">
       <div class="flex flex-col gap-8 justify-between">
         <div
           class="text-center"
@@ -98,6 +98,8 @@ export default function BlogPosts({
             </details>
           ))}
         </div>
+        <h2 class="text-2xl font-bold text-center mb-1 font-sora text-purple-800">Ainda restam dúvidas?</h2>
+        <p class="text-center">Entre em contato conosco pelo e-mail <b>maratona@movtech.org</b></p>
       </div>
     </div>
   );
