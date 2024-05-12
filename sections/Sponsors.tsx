@@ -1,6 +1,9 @@
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
+/**
+ * @titleBy alt
+ */
 interface Sponsors {
   logo?: ImageWidget;
   alt?: string;

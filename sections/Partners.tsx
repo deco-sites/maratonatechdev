@@ -1,6 +1,9 @@
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
+/**
+ * @titleBy alt
+ */
 interface Partners {
   logo?: ImageWidget;
   alt?: string;
@@ -13,7 +16,6 @@ interface Props {
   title?: string;
   /**
    * @description Display Partners Logos.
-   * @title {{{alt}}}
    */
   partners?: Partners[];
 }
