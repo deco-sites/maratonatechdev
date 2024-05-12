@@ -7,6 +7,13 @@ export type icons =
 | "desktop-outline"
 | "trophy-outline"
 | "book-outline"
+| "airplane-outline"
+| "laptop-outline"
+| "layers-outline"
+| "terminal-outline"
+| "medal-outline"
+| "newspaper-outline"
+| "earth-outline"
 
 export interface Info {
   /**
