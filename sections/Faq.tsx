@@ -70,14 +70,14 @@ export default function BlogPosts({
         <div class="flex flex-col gap-2">
           {questions?.map((question) => (
             <details class="w-full p-5 border border-purple-800 col-span-2 sm:col-span-1 rounded-lg bg-white/[.05] group">
-              <summary class="text-[1rem] leading-normal cursor-pointer flex">
+              <summary class="flex items-center text-[1rem] leading-normal cursor-pointer flex">
                 <span class="flex-auto group-open:text-[#22C55E]">
                   {question.title}
                 </span>
                 <span class="flex-none transition group-open:rotate-180">
                   <svg
-                    width="32"
-                    height="33"
+                    width="27"
+                    height="28"
                     viewBox="0 0 32 33"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"

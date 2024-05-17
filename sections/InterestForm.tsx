@@ -20,8 +20,12 @@ interface Props {
 export default function Section(
   {
     title = "Fique por dentro de tudo que acontece com a Maratona Tech 2024.",
-    description = "green",
-    formInputs,
+    description = "Faça seu cadastro e receba tudo em primeira mão.",
+    formInputs = [
+      'Seu nome*',
+      'Seu email*',
+      'Sua mensagem*'
+  ],
     submitButton = "Quero receber as novidades",
   }: Props,
 ) {
@@ -48,7 +52,7 @@ export default function Section(
           {formInputs?.map((input) => (
             <input
               type="text"
-              placeholder="Seu nome*"
+              placeholder={input}
               class="border border-neutral-300 w-full rounded-2xl px-3 py-2"
             />
           ))}
