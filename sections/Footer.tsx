@@ -62,24 +62,39 @@ export default function Footer({
 }: Props) {
   return (
     <section class="bg-purple-950 py-6 text-white">
-    <div class="w-10/12 mx-auto px-10 lg:px-0 text-[10px] space-y-2 text-center">
-    <div class="flex flex-row justify-center items-start gap-5">
-      <div>
-        <h3 class="text-xl font-bold font-sora">{text}</h3>
+      <div class="w-10/12 mx-auto px-10 lg:px-0 text-[10px] space-y-2 text-center">
+        <div class="flex flex-row justify-center items-start gap-5">
+          <div>
+            <h3 class="text-xl font-bold font-sora">{text}</h3>
+          </div>
+          <div class="flex flex-row gap-3">
+            <a
+              href="https://www.instagram.com/maratonatech/"
+              target="_blank"
+              class="text-yellow-500 text-2xl"
+            >
+              <ion-icon name="logo-instagram" role="img" class="md hydrated">
+              </ion-icon>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCt8_P6TgAA65FgbWgxydwBQ"
+              target="_blank"
+              class="text-yellow-500 text-2xl"
+            >
+              <ion-icon name="logo-youtube" role="img" class="md hydrated">
+              </ion-icon>
+            </a>
+            <a
+              href="https://www.tiktok.com/maratonatech"
+              target="_blank"
+              class="text-yellow-500 text-2xl"
+            >
+              <ion-icon name="logo-tiktok" role="img" class="md hydrated">
+              </ion-icon>
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="flex flex-row gap-3">
-        <a href="https://www.instagram.com/maratonatech/" target="_blank" class="text-yellow-500 text-2xl">
-          <ion-icon name="logo-instagram" role="img" class="md hydrated"></ion-icon>
-        </a>
-        <a href="https://www.youtube.com/channel/UCt8_P6TgAA65FgbWgxydwBQ" target="_blank" class="text-yellow-500 text-2xl">
-          <ion-icon name="logo-youtube" role="img" class="md hydrated"></ion-icon>
-        </a>
-        <a href="https://www.tiktok.com/maratonatech" target="_blank" class="text-yellow-500 text-2xl">
-          <ion-icon name="logo-tiktok" role="img" class="md hydrated"></ion-icon>
-        </a>
-      </div>
-    </div>
-  </div>
-  </section>
+    </section>
   );
 }

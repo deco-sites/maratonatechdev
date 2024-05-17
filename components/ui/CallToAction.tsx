@@ -24,8 +24,7 @@ export default function Section(
   {
     title = "A sua empresa também quer patrocinar a Maratona Tech 2024?",
     button = {
-      label:
-        "Fale com um consultor clicando aqui",
+      label: "Fale com um consultor clicando aqui",
       href: "/",
     },
   }: Props,
