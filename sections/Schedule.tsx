@@ -4,12 +4,14 @@ import Image from "apps/website/components/Image.tsx";
 export interface Props {
   anchorId?: string;
   /**
-   * @format rich-text
+   * @format code
+   * @language html
    * @default Click here to tweak this text however you want.
    */
   title?: string;
   /**
-   * @format rich-text
+   * @format code
+   * @language html
    * @default Click here to tweak this text however you want.
    */
   description?: string;

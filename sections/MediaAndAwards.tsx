@@ -4,7 +4,8 @@ import { icons } from "./ImpactAndTestimonials.tsx";
 
 export interface Card {
   /**
-   * @format rich-text
+   * @format code
+   * @language html
    * @default Click here to tweak this text however you want.
    */
   title?: string;
@@ -23,7 +24,8 @@ export interface Media {
 
 export interface Pin {
   /**
-   * @format rich-text
+   * @format code
+   * @language html
    * @default Click here to tweak this text however you want.
    */
   description?: string;
@@ -177,24 +179,24 @@ export default function MediaAndAwards({
           </span>
         </h1>
         <div class="grid lg:grid-cols-3 gap-5 my-5">
-          {media.cards.map((card) => (
+          {media.cards?.map((card) => (
             <div class="rounded-2xl bg-gradient-to-b from-blue-500 to-purple-500 p-px relative">
               <div class="bg-slate-950 h-full rounded-2xl p-6 flex flex-col justify-between">
                 <h3 class="font-bold text-xl">{card.title}</h3>
                 <Image
                   width={400}
                   class="rounded-xl my-3"
-                  src={card.image}
+                  src={card.image ?? ""}
                   alt={card.image}
                   decoding="async"
                   loading="lazy"
                 />
                 <a
-                  href={card.cta.href}
+                  href={card.cta?.href}
                   class={`bg-gradient-to-r from-green-500 to-lime-500 p-3 rounded-2xl text-white uppercase font-extrabold flex items-center justify-center`}
-                  target={card.cta.href.includes("http") ? "_blank" : "_self"}
+                  target={card.cta?.href?.includes("http") ? "_blank" : "_self"}
                 >
-                  {card.cta.text}
+                  {card.cta?.text}
                 </a>
               </div>
             </div>
@@ -209,9 +211,9 @@ export default function MediaAndAwards({
           </span>
         </h1>
         <div class="grid grid-cols-2 lg:grid-cols-3 gap-5 my-8 justify-center items-start">
-          {awards.pins.map((pin, index) => (
+          {awards.pins?.map((pin, index) => (
             <div
-              class={awards.pins.length - 1 == index
+              class={awards.pins && awards.pins.length - 1 === index
                 ? "col-span-2 lg:col-span-3 text-center text-white flex flex-col justify-center items-center"
                 : "text-center text-white flex flex-col justify-center items-center"}
             >
@@ -231,11 +233,11 @@ export default function MediaAndAwards({
       </div>
       <div class="lg:w-4/12 mx-auto">
         <a
-          href={awards.cta.href}
+          href={awards.cta?.href}
           class={`text-sm lg:text-base p-3 bg-green-600 font-extrabold uppercase flex uppercase text-center justify-center bg-gradient-to-r from-green-500 to-lime-500 p-3 rounded-2xl text-white uppercase font-extrabold flex items-center justify-center`}
-          target={awards.cta.href.includes("http") ? "_blank" : "_self"}
+          target={awards.cta?.href?.includes("http") ? "_blank" : "_self"}
         >
-          {awards.cta.text}
+          {awards.cta?.text}
         </a>
       </div>
     </div>

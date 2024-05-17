@@ -3,12 +3,20 @@ import Image from "apps/website/components/Image.tsx";
 
 export interface Question {
   title: string;
-  /** @format rich-text */
+  /**
+   * @format code
+   * @language html
+   * @default Click here to tweak this text however you want.
+   */
   answer: string;
 }
 
 export interface Props {
-  /** @format rich-text */
+ /**
+   * @format code
+   * @language html
+   * @default Click here to tweak this text however you want.
+   */
   title?: string;
   questions?: Question[];
 }

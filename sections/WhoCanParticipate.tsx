@@ -3,12 +3,14 @@ import Image from "apps/website/components/Image.tsx";
 
 export interface Card {
   /**
-   * @format rich-text
+   * @format code
+   * @language html
    * @default Click here to tweak this text however you want.
    */
   title?: string;
   /**
-   * @format rich-text
+   * @format code
+   * @language html
    * @default Click here to tweak this text however you want.
    */
   description?: string;
@@ -21,9 +23,10 @@ export interface Props {
   desktopBackgroundImage?: ImageWidget;
   mobileBackgroundImage?: ImageWidget;
   /**
-   * @format rich-text
+   * @format code
+   * @language html
    * @default Click here to tweak this text however you want.
-   */
+   */ 
   title?: string;
   cards?: Card[];
 }

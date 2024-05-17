@@ -17,7 +17,8 @@ export type icons =
 
 export interface Info {
   /**
-   * @format rich-text
+   * @format code
+   * @language html
    * @default Click here to tweak this text however you want.
    */
   description: string;
@@ -38,7 +39,8 @@ export interface CTA {
 export interface Testimonial {
   youtubeId: string;
   /**
-   * @format rich-text
+   * @format code
+   * @language html
    * @default Click here to tweak this text however you want.
    */
   description: string;
@@ -56,12 +58,14 @@ export interface Props {
   buttonFloatingImage?: ImageWidget;
   cta?: CTA;
   /**
-   * @format rich-text
+   * @format code
+   * @language html
    * @default Click here to tweak this text however you want.
    */
   testimonialTitle?: string;
   /**
-   * @format rich-text
+   * @format code
+   * @language html
    * @default Click here to tweak this text however you want.
    */
   testimonialDescription?: string;
