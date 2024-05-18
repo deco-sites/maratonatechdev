@@ -13,6 +13,30 @@ export default defineApp(async (_req, ctx) => {
 
       {/* Include Icons and manifest */}
       <Head>
+        {/* Google Tag Manager Cactus*/}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-M5LG7766');`
+          }}
+        />
+        {/* End Google Tag Manager Cactus*/}
+
+        {/* Google Tag Manager Maratona*/}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-NN4TDB4B');`
+          }}
+        />
+        {/* End Google Tag Manager Maratona*/}
+
         {/* Enable View Transitions API */}
         <meta name="view-transition" content="same-origin" />
 
@@ -36,6 +60,30 @@ export default defineApp(async (_req, ctx) => {
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
       </Head>
+
+      {/* Google Tag Manager Cactus*/}
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-M5LG7766"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        >
+        </iframe>
+      </noscript>
+      {/* End Google Tag Manager Cactus*/}
+
+      {/* Google Tag Manager Maratona*/}
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-NN4TDB4B"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        >
+        </iframe>
+      </noscript>
+      {/* End Google Tag Manager Maratona*/}
 
       {/* Rest of Preact tree */}
       <ctx.Component />
