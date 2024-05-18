@@ -12,7 +12,7 @@ export interface Question {
 }
 
 export interface Props {
- /**
+  /**
    * @format code
    * @language html
    * @default Click here to tweak this text however you want.
@@ -106,12 +106,14 @@ export default function BlogPosts({
             </details>
           ))}
         </div>
-        <h2 class="text-2xl font-bold text-center mb-1 font-sora text-purple-800">
-          Ainda restam dúvidas?
-        </h2>
-        <p class="text-center">
-          Entre em contato conosco pelo e-mail <b>maratona@movtech.org</b>
-        </p>
+        <div>
+          <h2 class="text-2xl font-bold text-center mb-1 font-sora text-purple-800">
+            Ainda restam dúvidas?
+          </h2>
+          <p class="text-center">
+            Entre em contato conosco pelo e-mail <b>maratona@movtech.org</b>
+          </p>
+        </div>
       </div>
     </div>
   );
