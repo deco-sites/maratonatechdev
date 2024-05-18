@@ -72,7 +72,7 @@ export default function MediaAndAwards({
           "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/3e458f36-5529-4667-b9b2-8fb923ca377e",
         cta: {
           text: "LEIA MAIS",
-          href: "#",
+          href: "https://veja.abril.com.br/coluna/radar/com-mais-de-600-mil-alunos-maratona-tech-tem-seis-vezes-mais-inscritos/#google_vignette",
         },
       },
       {
@@ -82,7 +82,7 @@ export default function MediaAndAwards({
           "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/ad8e7ab4-ff94-4740-b0b7-e1c2a2dc980a",
         cta: {
           text: "LEIA MAIS",
-          href: "#",
+          href: "https://observatorio3setor.org.br/noticias/escolas-publicas-e-privadas-podem-participar-de-maratona-de-tecnologia/",
         },
       },
       {
@@ -91,13 +91,13 @@ export default function MediaAndAwards({
           "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/739f367f-0c9f-4ffb-bf07-e351376151b5",
         cta: {
           text: "LEIA MAIS",
-          href: "#",
+          href: "https://www.correio24horas.com.br/minha-bahia/estudantes-da-maratona-tech-se-formam-em-salvador-1123",
         },
       },
     ],
   },
   awards = {
-    title: "Veja o que estudantes e professores podem ganhar na",
+    title: "Veja o que estudantes e professores podem ganhar na ",
     titleGradient: "Maratona Tech:",
     pins: [
       {
@@ -137,8 +137,8 @@ export default function MediaAndAwards({
       },
     ],
     cta: {
-      text: "Faça sua inscrição",
-      href: "#",
+      text: "Faça sua inscrição gratuita",
+      href: "https://portalolimpico.com.br/pagina_cadastro",
     },
   },
 }: Props) {
@@ -171,6 +171,34 @@ export default function MediaAndAwards({
         decoding="async"
         loading="lazy"
       />
+      <div class="lg:w-8/12 mx-auto">
+        <h1 class="text-xl lg:text-4xl text-center font-sora">
+          {awards.title}
+          <span class="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text font-extrabold">
+            {awards.titleGradient}
+          </span>
+        </h1>
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-20 my-8 justify-center items-start">
+          {awards.pins?.map((pin, index) => (
+            <div
+              class={awards.pins && awards.pins.length - 1 === index
+                ? "col-span-2 lg:col-span-3 text-center text-white flex flex-col justify-center items-center"
+                : "text-center text-white flex flex-col justify-center items-center"}
+            >
+              <span
+                class="text-purple-500 text-7xl mb-3 flex"
+                style={{
+                  color: pin.color,
+                }}
+              >
+                {/*// @ts-ignore*/}
+                <ion-icon name={pin.icon}></ion-icon>
+              </span>
+              <h2>{pin.description}</h2>
+            </div>
+          ))}
+        </div>
+      </div>
       <div class="lg:w-10/12 mx-auto">
         <h1 class="text-3xl lg:text-4xl text-center font-sora">
           {media.title}
@@ -199,34 +227,6 @@ export default function MediaAndAwards({
                   {card.cta?.text}
                 </a>
               </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div class="lg:w-8/12 mx-auto">
-        <h1 class="text-xl lg:text-4xl text-center font-sora">
-          {awards.title}
-          <span class="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text font-extrabold">
-            {awards.titleGradient}
-          </span>
-        </h1>
-        <div class="grid grid-cols-2 lg:grid-cols-3 gap-5 my-8 justify-center items-start">
-          {awards.pins?.map((pin, index) => (
-            <div
-              class={awards.pins && awards.pins.length - 1 === index
-                ? "col-span-2 lg:col-span-3 text-center text-white flex flex-col justify-center items-center"
-                : "text-center text-white flex flex-col justify-center items-center"}
-            >
-              <span
-                class="text-purple-500 text-7xl mb-3 flex"
-                style={{
-                  color: pin.color,
-                }}
-              >
-                {/*// @ts-ignore*/}
-                <ion-icon name={pin.icon}></ion-icon>
-              </span>
-              <h2>{pin.description}</h2>
             </div>
           ))}
         </div>

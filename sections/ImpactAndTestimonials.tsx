@@ -15,16 +15,6 @@ export type icons =
   | "newspaper-outline"
   | "earth-outline";
 
-export interface Info {
-  /**
-   * @format code
-   * @language html
-   * @default Click here to tweak this text however you want.
-   */
-  description: string;
-  icon: icons;
-}
-
 export interface subTitle {
   title: string;
   description: string;
@@ -49,7 +39,6 @@ export interface Testimonial {
 export interface Props {
   anchorId?: string;
   anchorIdTestimonials?: string;
-  infos?: Info[];
   leftFloatingImage?: ImageWidget;
   rightFloatingImage?: ImageWidget;
   mainImage?: ImageWidget;
@@ -73,29 +62,6 @@ export interface Props {
 }
 
 export default function ImpactAndTestimonials({
-  infos = [
-    {
-      description: "Inscrição gratuita para escolas de todo o Brasil",
-      icon: "person-add-outline",
-    },
-    {
-      description: "Conteúdo formativo com muita diversão",
-      icon: "rocket-outline",
-    },
-    {
-      description:
-        "Não precisa ter conhecimento prévio, nem laboratório de informática",
-      icon: "desktop-outline",
-    },
-    {
-      description: "Premiação para estudantes, professores e escolas",
-      icon: "trophy-outline",
-    },
-    {
-      description: "Conteúdos alinhados à BNCC",
-      icon: "book-outline",
-    },
-  ],
   leftFloatingImage =
     "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/6a063e13-77df-45a2-837c-8162f11f6f00",
   rightFloatingImage =
@@ -125,8 +91,8 @@ export default function ImpactAndTestimonials({
     "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/df712c98-b498-472c-89c1-b76bb7fb7bc6",
   cta = {
     id: "",
-    href: "#",
-    text: "Faça sua inscrição",
+    href: "https://portalolimpico.com.br/pagina_cadastro",
+    text: "Faça sua inscrição Gratuita.",
   },
   testimonialTitle = "Depoimentos",
   testimonialDescription = "estudantes e professores",
@@ -148,7 +114,7 @@ export default function ImpactAndTestimonials({
   anchorIdTestimonials = "",
 }: Props) {
   return (
-    <section class="bg-pink-600 border-t-4 border-yellow-500 py-10 -my-8 px-8 lg:px-0 text-white -skew-y-2 relative">
+    <section id={anchorId} class="bg-pink-600 border-t-4 border-yellow-500 py-10 -my-8 px-8 lg:px-0 text-white -skew-y-2 relative">
       <Image
         width={400}
         class="absolute w-[200px] -top-[150px] -left-[90px] lg:left-0 lg:-top-[230px] lg:w-[200px] z-50"
@@ -166,33 +132,6 @@ export default function ImpactAndTestimonials({
         loading="lazy"
       />
       <div class="skew-y-2 space-y-20">
-        <div class="text-white -mt-[120px] mb-8 px-8 lg:px-0">
-          <div class="lg:w-10/12 mx-auto rounded-2xl bg-purple-900/[.70] backdrop-blur-xl p-8 shadow-lg border-4 border-yellow-500">
-            <div class="grid grid-cols-2 lg:grid-cols-5 gap-8 items-start">
-              {infos.map((info, index) => (
-                <div
-                  class={`${
-                    infos.length - 1 == index
-                      ? "col-span-2 lg:col-span-1 flex flex-col justify-center text-center"
-                      : "flex flex-col justify-center text-center"
-                  }`}
-                >
-                  <span class="flex text-yellow-500 text-5xl justify-center items-center">
-                    {/*// @ts-ignore*/}
-                    <ion-icon name={info.icon}></ion-icon>
-                  </span>
-                  <div
-                    class="text-sm mt-3"
-                    dangerouslySetInnerHTML={{
-                      __html: info.description,
-                    }}
-                  >
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
         <div class="lg:w-11/12 mx-auto text-center lg:text-left relative">
           <Image
             width={300}
@@ -212,9 +151,8 @@ export default function ImpactAndTestimonials({
                 decoding="async"
                 loading="lazy"
               />
-              <p class="text-[10px] text-center">*Inscrições por estado.</p>
             </div>
-            <div class="space-y-3">
+            <div class="">
               <h1
                 class="text-7xl lg:text-8xl font-sora font-bold text-yellow-500 mb-8"
                 dangerouslySetInnerHTML={{
@@ -232,16 +170,16 @@ export default function ImpactAndTestimonials({
                   </div>
                 ))}
               </div>
+              <div class="lg:w-8/12 mx-auto lg:mx-0 mt-10">
+                <a
+                  href={cta.href}
+                  class="text-sm lg:text-base p-3 bg-green-600 font-extrabold uppercase flex uppercase text-center justify-center bg-gradient-to-r from-purple-800 to-purple-600 p-3 rounded-2xl text-white uppercase font-extrabold flex items-center justify-center"
+                >
+                  {cta.text}
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="lg:w-4/12 mx-auto">
-          <a
-            href={cta.href}
-            class="text-sm lg:text-base p-3 bg-green-600 font-extrabold uppercase flex uppercase text-center justify-center bg-gradient-to-r from-purple-800 to-purple-600 p-3 rounded-2xl text-white uppercase font-extrabold flex items-center justify-center"
-          >
-            {cta.text}
-          </a>
         </div>
         <div id={anchorIdTestimonials} class="lg:w-10/12 mx-auto">
           <h1

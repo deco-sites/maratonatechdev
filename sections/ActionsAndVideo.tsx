@@ -38,23 +38,23 @@ export default function ActionsAndVideo({
     "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/349ac22c-3e75-4751-b226-9b90e0166f07",
   CTAs = [
     {
-      href: "#",
+      href: "https://drive.google.com/file/d/19DuQk1e49TyDZSMgEeeu5ic5ZjZG_S02/view",
       text: "Resultado vencedores 2023",
       color: "#db2777",
     },
     {
-      href: "#",
+      href: "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/imersao-tech",
       text: "Imersão Tech São Paulo",
       color: "#a855f7",
     },
     {
-      href: "#",
+      href: "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/conexao-futuro",
       text: "Fotos da Cerimônia de Premiação Salvador",
       color: "#2563eb",
     },
   ],
   anchorId = "",
-  youtubeVideoId = "NpEaa2P7qZI",
+  youtubeVideoId = "B9pS_uBZomA",
 }: Props) {
   return (
     <div

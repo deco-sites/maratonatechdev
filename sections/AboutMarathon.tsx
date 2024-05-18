@@ -13,6 +13,30 @@ export interface Phase {
   description: string;
 }
 
+export type icons =
+  | "person-add-outline"
+  | "rocket-outline"
+  | "desktop-outline"
+  | "trophy-outline"
+  | "book-outline"
+  | "airplane-outline"
+  | "laptop-outline"
+  | "layers-outline"
+  | "terminal-outline"
+  | "medal-outline"
+  | "newspaper-outline"
+  | "earth-outline";
+
+export interface Info {
+  /**
+   * @format code
+   * @language html
+   * @default Click here to tweak this text however you want.
+   */
+  description: string;
+  icon: icons;
+}
+
 export interface Props {
   anchorId?: string;
   title?: string;
@@ -24,6 +48,7 @@ export interface Props {
    */
   description?: string;
   phases?: Phase[];
+  infos?: Info[];
 }
 
 export default function AboutMarathon({
@@ -44,12 +69,62 @@ export default function AboutMarathon({
     },
   ],
   anchorId = "",
+  infos = [
+    {
+      description: "Inscrição gratuita para escolas de todo o Brasil",
+      icon: "person-add-outline",
+    },
+    {
+      description: "Conteúdo formativo com muita diversão",
+      icon: "rocket-outline",
+    },
+    {
+      description:
+        "Não precisa ter conhecimento prévio, nem laboratório de informática",
+      icon: "desktop-outline",
+    },
+    {
+      description: "Premiação para estudantes, professores e escolas",
+      icon: "trophy-outline",
+    },
+    {
+      description: "Conteúdos alinhados à BNCC",
+      icon: "book-outline",
+    },
+  ],
 }: Props) {
   return (
     <nav
       id={anchorId}
       class="bg-slate-950 pt-20 pb-36 space-y-10 text-white px-8 lg:px-0"
     >
+      <div class="text-white -mt-[120px] mb-8 px-8 lg:px-0">
+        <div class="lg:w-10/12 mx-auto rounded-2xl bg-purple-900/[.70] backdrop-blur-xl p-8 shadow-lg border-4 border-yellow-500">
+          <div class="grid grid-cols-2 lg:grid-cols-5 gap-8 items-start">
+            {infos.map((info, index) => (
+              <div
+                class={`${
+                  infos.length - 1 == index
+                    ? "col-span-2 lg:col-span-1 flex flex-col justify-center text-center"
+                    : "flex flex-col justify-center text-center"
+                }`}
+              >
+                <span class="flex text-yellow-500 text-5xl justify-center items-center">
+                  {/*// @ts-ignore*/}
+                  <ion-icon name={info.icon}></ion-icon>
+                </span>
+                <div
+                  class="text-sm mt-3"
+                  dangerouslySetInnerHTML={{
+                    __html: info.description,
+                  }}
+                >
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
       <div class="lg:w-8/12 mx-auto">
         <h1 class="text-xl lg:text-4xl text-center font-sora">
           <span
