@@ -49,19 +49,9 @@ export default function Section(
           {description}
         </p>
         <div class="my-5 space-y-3 lg:w-10/12 mx-auto">
-          {formInputs?.map((input) => (
-            <input
-              type="text"
-              placeholder={input}
-              class="border border-neutral-300 w-full rounded-2xl px-3 py-2"
-            />
-          ))}
-          <a
-            href=""
-            class="bg-green-500 text-white font-bold text-center flex w-full rounded-2xl p-2 text-center justify-center items-center"
-          >
-            {submitButton}
-          </a>
+        <div role="main" id="2024-feep-2024-inscricao-duplicado-43575b3362a625a16be4"></div>
+        <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script><script dangerouslySetInnerHTML={{
+            __html: `new RDStationForms('2024-feep-2024-inscricao-duplicado-43575b3362a625a16be4', 'null').createForm();`}}/>
         </div>
       </div>
     </section>

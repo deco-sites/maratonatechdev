@@ -33,7 +33,7 @@ const PLACEMENT = {
 
 export default function HeroFlats({
   title =
-    "<h1 class='text-4xl lg:text-5xl font-bold text-center lg:text-left mb-3 font-sora'>A maior<span class='underline decoration-wavy decoration-pink-500'>competição de tecnologia entre escolas</span> do Brasil.</h1>",
+    "<h1 class='text-4xl lg:text-5xl font-bold text-center lg:text-left mb-3 font-sora'>A maior<span class='underline decoration-wavy decoration-blue-500'>competição de tecnologia entre escolas</span> do Brasil.</h1>",
   description =
     "<div class='flex flex-col lg:flex-row items-center lg:items-start jusitfy-between space-x-4 my-3'><p class='text-sm text-center lg:text-left'>De agosto a setembro de 2024 na sua escola</p><div class='flex flex-row gap-3'><a href='https://www.instagram.com/maratonatech/' target='_blank' class='text-yellow-500 text-lg'><ion-icon name='logo-instagram' role='img' class='md hydrated'></ion-icon></a><a href='https://www.youtube.com/channel/UCt8_P6TgAA65FgbWgxydwBQ' target='_blank' class='text-yellow-500 text-lg'><ion-icon name='logo-youtube' role='img' class='md hydrated'></ion-icon></a><a href='https://www.tiktok.com/maratonatech' target='_blank' class='text-yellow-500 text-lg'><ion-icon name='logo-tiktok' role='img' class='md hydrated'></ion-icon></a></div></div>",
   image,
@@ -45,10 +45,10 @@ export default function HeroFlats({
 }: Props) {
   return (
     <section
-      class="bg-slate-950 pt-28 lg:min-h-[834px]"
-      style="background: linear-gradient(0deg, rgba(2,6,23,1) 0%, rgba(2,6,23,0) 60%),url(https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/bg-hero.jpg);background-size: cover;"
+      id="hero"
+      class="bg-black min-h-[930px] lg:min-h-[828px] lg:flex lg:items-center text-white px-8 lg:px-0 bg-[center_top_1rem]"
     >
-      <nav class="lg:container mx-8 lg:mx-auto">
+      <nav class="lg:w-10/12 mx-auto lg:-mt-20">
         <div class="flex flex-col items-center gap-8">
           <div
             class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 justify-end ${
@@ -58,7 +58,7 @@ export default function HeroFlats({
             } lg:py-36 gap-12 md:gap-20 items-center`}
           >
             <div
-              class={`lg:w-full space-y-4 gap-4 text-white ${
+              class={`lg:w-full pt-14 space-y-4 gap-4 text-white ${
                 image
                   ? "lg:w-5/12 lg:max-w-xl"
                   : "flex flex-col items-center justify-center lg:max-w-3xl"
@@ -82,7 +82,7 @@ export default function HeroFlats({
                 }}
               >
               </div>
-              <div class="flex flex-col gap-3 lg:w-10/12 py-4">
+              <div class="flex flex-col gap-3 lg:w-[72%] py-4">
                 {cta?.map((item) => (
                   <a
                     key={item?.id}

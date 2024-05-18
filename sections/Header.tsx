@@ -47,7 +47,7 @@ export default function Header({
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
-      <div class="drawer-content w-full lg:px-0 px-4 flex gap-8 items-center justify-between">
+      <div class="drawer-content w-full lg:px-0 px-10 flex gap-8 items-center justify-between">
         <a href="/">
           <Image
             src={logo.src || ""}
@@ -78,7 +78,7 @@ export default function Header({
                 id={item?.id}
                 href={item?.href ?? "#"}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary h-10 min-h-10 border-0 rounded-xl p-2 bg-purple-700 text-white font-semibold hover:bg-purple-800 duration-300 ease-in-out transition-all ${
+                class={`font-normal btn btn-primary h-[34px] min-h-[34px] border-0 rounded-xl p-2 bg-purple-700 text-white font-semibold hover:bg-purple-800 duration-300 ease-in-out transition-all ${
                   item.outline && "btn-outline"
                 }`}
               >
@@ -90,9 +90,9 @@ export default function Header({
 
         <label
           htmlFor="mobile-drawer-nav"
-          class="flex lg:hidden btn btn-ghost drawer-button text-white"
+          class="flex lg:hidden drawer-button text-white"
         >
-          <Icon id="Bars3" size={24} strokeWidth={0.1} />
+          <Icon id="Bars3" size={36} strokeWidth={0.1} />
         </label>
       </div>
 
