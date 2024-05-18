@@ -24,6 +24,23 @@
 
 @layer components {
 
+  #hero {
+    background-color: rgb(2, 6, 23);
+    background: linear-gradient(0deg, rgba(2, 6, 23, 1) 0%, rgba(2, 6, 23, 0) 60%), url(https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/bg-hero.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media only screen and (max-width: 600px){
+    #hero {
+      background-color: rgb(1, 17, 43) !important;
+      background: linear-gradient(0deg, rgba(1, 17, 43, 0) 100%, rgba(1, 17, 43, 1) 0%), url(https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/bg-hero_mobile.jpg);
+      background-size: contain;
+      background-position: bottom center;
+      background-repeat: no-repeat;
+    }
+  }
+
   /** Prevent scroll when modal is open */
   .no-scroll {
     overflow: hidden;
