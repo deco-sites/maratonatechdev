@@ -108,7 +108,7 @@ export default function Footer({
             Desenvolvido por <span class="text-green-600">Agencia NXT LVL</span>
           </a>
           <div class="flex items-center self-end gap-[4px]">
-            <a class="flex items-center self-end gap-[4px]" href="https://deco.cx">
+            <a class="flex items-center self-end gap-[4px]"s href="https://deco.cx">
               <p class="text-white text-[10px] font-medium">Powered BY</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
