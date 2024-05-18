@@ -98,16 +98,16 @@ export default function ImpactAndTestimonials({
   testimonialDescription = "estudantes e professores",
   testimonials = [
     {
-      youtubeId: "NpEaa2P7qZI",
+      youtubeId: "2I9osBwktcQ?si=ZlRkUrXUf1sp8PnE",
       description: "Sarah Alves - Jijoca de Jericoacara - Ceará",
     },
     {
-      youtubeId: "NpEaa2P7qZI",
+      youtubeId: "oo9eF7U4Lkw?si=uv8fhNSAAnO5PgVr",
       description: "Amanda Pires - Nova Esperança - Paraná",
     },
     {
-      youtubeId: "NpEaa2P7qZI",
-      description: "Vários Alunos",
+      youtubeId: "sw067zWTZsc?si=ewzU0NvaUT6NIulV",
+      description: "Jaiane Saiara - Salvador - Bahia",
     },
   ],
   anchorId = "",

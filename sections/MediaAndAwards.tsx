@@ -46,6 +46,7 @@ export interface Awards {
 
 export interface Props {
   anchorId?: string;
+  mediaAnchorId?: string;
   topFloatingImage?: ImageWidget;
   rightMiddleFloatingImage?: ImageWidget;
   bottomFloatingImage?: ImageWidget;
@@ -55,6 +56,7 @@ export interface Props {
 
 export default function MediaAndAwards({
   anchorId = "",
+  mediaAnchorId = "",
   topFloatingImage =
     "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/52483561-be2e-4090-bdf0-377a15259c4c",
   rightMiddleFloatingImage =
@@ -199,7 +201,7 @@ export default function MediaAndAwards({
           ))}
         </div>
       </div>
-      <div class="lg:w-10/12 mx-auto">
+      <div id={mediaAnchorId} class="lg:w-10/12 mx-auto">
         <h1 class="text-3xl lg:text-4xl text-center font-sora">
           {media.title}
           <span class="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text font-extrabold">

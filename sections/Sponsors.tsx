@@ -24,10 +24,12 @@ interface Props {
   sponsorsGroup?: {
     sponsors?: Sponsors[];
   }[];
+  anchorId?: string;
 }
 
 export default function Section(
   {
+    anchorId = '',
     title = "Quem faz a Maratona Tech",
     highlight =
       "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/ifood-43-1.png",
@@ -118,7 +120,7 @@ export default function Section(
   }: Props,
 ) {
   return (
-    <div class="lg:w-8/12 mx-auto">
+    <div id={anchorId} class="lg:w-8/12 mx-auto">
       <div class="pt-10 pb-20 px-8 lg:px-0">
         <h3 class="text-2xl text-center font-sora font-bold text-purple-800 mb-10">
           {title}

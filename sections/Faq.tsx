@@ -19,12 +19,14 @@ export interface Props {
    */
   title?: string;
   questions?: Question[];
+  anchorId?: string;
 }
 
 const DEFAULT_IMAGE =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9";
 
 export default function BlogPosts({
+  anchorId = '',
   title =
     "<h1 class='text-2xl lg:text-3xl font-bold text-center font-sora text-purple-800'>Ficou com alguma <span class='underline decoration-pink-600 decoration-wavy'>dúvida?</span></h1>",
   questions = [
@@ -67,7 +69,7 @@ export default function BlogPosts({
   ],
 }: Props) {
   return (
-    <div class="lg:w-8/12 pb-20 mx-auto px-5 lg:px-0">
+    <div id={anchorId} class="lg:w-8/12 pb-20 mx-auto px-5 lg:px-0">
       <div class="flex flex-col gap-8 justify-between">
         <div
           class="text-center"

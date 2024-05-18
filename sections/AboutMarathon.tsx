@@ -162,7 +162,7 @@ export default function AboutMarathon({
                 <h2
                   class={`text-3xl font-light font-sora ${
                     index % 2 == 0 ? "bg-blue-500" : "bg-purple-500"
-                  } text-blue-950 absolute rounded-xl p-2 mx-auto right-0 left-0 w-4/12 -top-8 text-center`}
+                  } text-blue-950 absolute whitespace-nowrap rounded-xl p-2 mx-auto right-0 left-0 w-4/12 -top-8 text-center`}
                 >
                   Fase {index + 1}
                 </h2>
