@@ -87,7 +87,7 @@ export default function WhoCanParticipate({
       />
       <div
         id={anchorId}
-        class="quem-pode bg-slate-950 py-20 space-y-10 px-10 lg:px-0 text-white -mt-10 min-h-[1200px] lg:min-h-[450px] flex lg:items-center justify-end -skew-y-2"
+        class="quem-pode bg-slate-950 py-20 space-y-10 px-10 lg:px-0 text-white -mt-10 min-h-[1130px] lg:min-h-[450px] flex lg:items-center justify-end -skew-y-2"
       >
         <div class="lg:w-10/12 mx-auto flex justify-end skew-y-2">
           <div class="lg:w-6/12">

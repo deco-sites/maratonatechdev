@@ -60,12 +60,12 @@ export default function AboutMarathon({
     {
       title: "12 de agosto a 15 de setembro de 2023",
       description:
-        "Professores recebem uma formação exclusiva e um desafio para aplicar em sala de aula, relacionado a carreiras e usos práticos da tecnologia na comunidade dos estudantes. Os alunos realizam o estudo, apresentam os trabalhos e” por “pesquisam, em grupo, sobre tecnologia e carreiras. Os alunos destaque se classificam para a Fase 2, a fase final da competição.",
+        "Professores recebem uma formação exclusiva e um desafio para aplicar em sala de aula, relacionado a carreiras e usos práticos da tecnologia na comunidade dos estudantes. Os alunos pesquisam, em grupo, sobre tecnologia e carreiras. Os alunos destaque se classificam para a Fase 2, a fase final da competição.",
     },
     {
       title: "30 de setembro a 13 de outubro de 2023",
       description:
-        "A fase final da competição inclui ciclos de aprendizagem sobre pensamento computacional, auxiliados …” por “Estudantes recebem, individualmente pelo Zeca, nosso chatbot do WhatsApp, 8 ciclos de conteúdo de pensamento computacional e lógica. Ao final de cada ciclo, eles respondem um quiz de 6 a 8 questões. A partir do desempenho nos quizzes, os alunos são premiados, recebendo medalhas, bolsas de estudo em cursos de tecnologia, certificados e convite para o Conexão Futuro.",
+        "Estudantes recebem, individualmente pelo Zeca, nosso chatbot do WhatsApp, 8 ciclos de conteúdo de pensamento computacional e lógica. Ao final de cada ciclo, eles respondem um quiz de 6 a 8 questões. A partir do desempenho nos quizzes, os alunos são premiados, recebendo medalhas, bolsas de estudo em cursos de tecnologia, certificados e convite para o Conexão Futuro.",
     },
   ],
   anchorId = "",
@@ -98,7 +98,7 @@ export default function AboutMarathon({
       id={anchorId}
       class="bg-slate-950 pt-20 pb-36 space-y-10 text-white px-8 lg:px-0"
     >
-      <div class="text-white -mt-[120px] mb-8 px-8 lg:px-0">
+      <div class="text-white -mt-[120px] mb-8">
         <div class="lg:w-10/12 mx-auto rounded-2xl bg-purple-900/[.70] backdrop-blur-xl p-8 shadow-lg border-4 border-yellow-500">
           <div class="grid grid-cols-2 lg:grid-cols-5 gap-8 items-start">
             {infos.map((info, index) => (

@@ -84,7 +84,7 @@ export default function ImpactAndTestimonials({
     },
     {
       title: "R$ 6,68",
-      description: "Custo por estudantes",
+      description: "custo por estudantes",
     },
   ],
   buttonFloatingImage =
@@ -135,13 +135,13 @@ export default function ImpactAndTestimonials({
         <div class="lg:w-11/12 mx-auto text-center lg:text-left relative">
           <Image
             width={300}
-            class="absolute w-[150px] -bottom-[150px] -right-[0px] lg:right-0 lg:-bottom-[200px] lg:w-[250px]"
+            class="absolute w-[150px] -bottom-[150px] -right-[80px] lg:right-0 lg:-bottom-[200px] lg:w-[250px]"
             src={buttonFloatingImage}
             alt={buttonFloatingImage}
             decoding="async"
             loading="lazy"
           />
-          <div class="my-5 grid lg:grid-cols-2 gap-5 items-center">
+          <div class="flex flex-col-reverse my-5 lg:grid lg:grid-cols-2 gap-5 items-center justify-center lg:justify-normal">
             <div>
               <Image
                 width={600}
