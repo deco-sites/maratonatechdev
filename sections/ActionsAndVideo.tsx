@@ -48,8 +48,8 @@ export default function ActionsAndVideo({
       color: "#a855f7",
     },
     {
-      href: "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/conexao-futuro",
-      text: "Fotos da Cerimônia de Premiação Salvador",
+      href: "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/premiacao-bahia",
+      text: "Fotos da Cerimônia de Premiação",
       color: "#2563eb",
     },
   ],
