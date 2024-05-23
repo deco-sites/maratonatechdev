@@ -44,7 +44,7 @@ export default function ConexaoFuturo({
     <nav class="bg-slate-950 pt-20 pb-36 space-y-10 text-white px-8 lg:px-0">
       <Image
         width={400}
-        class="absolute w-[200px] -top-[150px] -left-[90px] lg:left-0 lg:top[58px] lg:w-[200px] z-20"
+        class="absolute w-[200px] -top-[150px] -left-[90px] lg:left-0 lg:top-[58px] lg:w-[200px] z-20"
         src={leftFloatingImage ?? ""}
         alt={leftFloatingImage ?? ""}
         decoding="async"

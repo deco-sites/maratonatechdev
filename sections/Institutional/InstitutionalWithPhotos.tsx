@@ -45,7 +45,7 @@ export default function InstitutionalWithPhotos({
   },
 }: Props) {
   return (
-    <nav class="bg-slate-950 pt-36 pb-36 space-y-10 text-white px-8 lg:px-0">
+    <nav class="bg-slate-950 pt-20 lg:pt-36 pb-36 space-y-10 text-white px-8 lg:px-0">
       <Image
         width={400}
         class="absolute w-[200px] -top-[150px] -left-[90px] lg:left-0 lg:top-[58px] lg:w-[200px] z-20"
@@ -77,7 +77,7 @@ export default function InstitutionalWithPhotos({
         >
         </div>
         <div class="flex flex-col gap-8">
-          <div class="grid grid-cols-2 lg:grid-cols-3 gap-5">
+          <ul class="grid grid-cols-2 lg:grid-cols-3 gap-5">
             {photoShoot.images?.map((img, index) => (
               <Image
                 width={333}
@@ -85,10 +85,9 @@ export default function InstitutionalWithPhotos({
                 src={img}
                 alt={img}
                 decoding="async"
-                loading="lazy"
               />
             ))}
-          </div>
+          </ul>
           <a
             href={photoShoot.cta?.href}
             class={`bg-gradient-to-r from-green-500 to-lime-500 p-3 rounded-2xl text-white uppercase font-extrabold flex items-center justify-center lg:w-6/12 mx-auto`}
