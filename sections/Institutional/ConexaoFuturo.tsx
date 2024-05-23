@@ -34,16 +34,14 @@ export default function ConexaoFuturo({
     "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/icones/code.webp",
   rightFloatingImage =
     "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/icones/fone.webp",
-    cta = {
-      title: 'Acesse a comunidade do Conexão Futuro no Discord',
-      buttonLabel: 'Clique aqui para acessar',
-      href: ''
+  cta = {
+    title: "Acesse a comunidade do Conexão Futuro no Discord",
+    buttonLabel: "Clique aqui para acessar",
+    href: "",
   },
 }: Props) {
   return (
-    <nav
-      class="bg-slate-950 pt-20 pb-36 space-y-10 text-white px-8 lg:px-0"
-    >
+    <nav class="bg-slate-950 pt-20 pb-36 space-y-10 text-white px-8 lg:px-0">
       <Image
         width={400}
         class="absolute w-[200px] -top-[150px] -left-[90px] lg:left-0 lg:-top-[20px] lg:w-[200px] z-20"
@@ -64,12 +62,13 @@ export default function ConexaoFuturo({
         <h1
           class="text-xl lg:text-4xl text-center font-sora"
           dangerouslySetInnerHTML={{
-            __html: title ?? '',
+            __html: title ?? "",
           }}
         />
-        <ul class='lg:columns-2 my-5 space-y-3'
+        <ul
+          class="lg:columns-2 my-5 space-y-3"
           dangerouslySetInnerHTML={{
-            __html: description ?? '',
+            __html: description ?? "",
           }}
         />
         <div class="flex flex-col gap-6">

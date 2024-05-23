@@ -27,7 +27,7 @@ export interface Props {
   photoShoot?: Photos;
 }
 
-export default function PhotoBook({
+export default function Photobook({
   title =
     "Imersão <span class='bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text font-extrabold'>Tech</span>",
   description =
@@ -39,15 +39,13 @@ export default function PhotoBook({
   photoShoot = {
     images: [],
     cta: {
-        label: "Veja a galeria completa",
-        href: '/',
-    }
+      label: "Veja a galeria completa",
+      href: "/",
+    },
   },
 }: Props) {
   return (
-    <nav
-      class="bg-slate-950 pt-20 pb-36 space-y-10 text-white px-8 lg:px-0"
-    >
+    <nav class="bg-slate-950 pt-20 pb-36 space-y-10 text-white px-8 lg:px-0">
       <Image
         width={400}
         class="absolute w-[200px] -top-[150px] -left-[90px] lg:left-0 lg:-top-[20px] lg:w-[200px] z-20"
@@ -68,13 +66,13 @@ export default function PhotoBook({
         <h1
           class="text-xl lg:text-4xl text-center font-sora"
           dangerouslySetInnerHTML={{
-            __html: title ?? '',
+            __html: title ?? "",
           }}
         />
         <div
           class="text-center my-3"
           dangerouslySetInnerHTML={{
-            __html: description ?? '',
+            __html: description ?? "",
           }}
         >
         </div>

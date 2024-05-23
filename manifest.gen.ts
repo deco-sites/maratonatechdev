@@ -18,7 +18,7 @@ import * as $$$$$$26 from "./sections/hero2.tsx";
 import * as $$$$$$8 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$9 from "./sections/ImpactAndTestimonials.tsx";
 import * as $$$$$$10 from "./sections/Institutional/ConexaoFuturo.tsx";
-import * as $$$$$$11 from "./sections/Institutional/PhotoBook.tsx";
+import * as $$$$$$11 from "./sections/Institutional/Photobook.tsx";
 import * as $$$$$$12 from "./sections/Institutional/Regulament.tsx";
 import * as $$$$$$13 from "./sections/InterestForm.tsx";
 import * as $$$$$$14 from "./sections/Logos.tsx";
