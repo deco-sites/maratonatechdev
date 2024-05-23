@@ -87,7 +87,7 @@ export default function Footer({
                 </ion-icon>
               </a>
               <a
-                href="https://www.tiktok.com/maratonatech"
+                href="https://www.tiktok.com/@maratonatech"
                 target="_blank"
                 class="text-yellow-500 text-2xl"
               >

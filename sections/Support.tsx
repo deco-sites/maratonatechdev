@@ -27,42 +27,52 @@ export default function Section(
     supporters = [
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/insper-women-in-tech_branco.png",
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/ARCO%20INSTITUTO.png",
         alt: "accenture",
       },
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/arco.png",
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/CHATCLASS.png",
         alt: "accenture",
       },
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/chat.png",
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/CYBER-GENIOS.png",
         alt: "accenture",
       },
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/programa.png",
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/FUNDACAO-BEHRING.png",
         alt: "accenture",
       },
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/Inteli-Logo.png",
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/PROGRAMADORES%20DO%20AMANHA.png",
         alt: "Mercado Livre",
       },
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/cyber.png",
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/PROGRAMARIA.svg",
         alt: "accenture",
       },
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/programaria.png",
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/ROCKETSEAT.svg",
         alt: "accenture",
       },
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/rocketseat.webp",
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/ALURA.webp",
+        alt: "accenture",
+      },
+      {
+        logo:
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/INTELI.webp",
+        alt: "accenture",
+      },
+      {
+        logo:
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/ME%20SALVA.webp",
         alt: "accenture",
       },
     ],

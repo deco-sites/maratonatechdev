@@ -113,7 +113,7 @@ export default function BlogPosts({
             Ainda restam dúvidas?
           </h2>
           <p class="text-center">
-            Entre em contato conosco pelo e-mail <b>maratona@movtech.org</b>
+            Entre em contato conosco pelo e-mail <b>maratonatech@associacaocactus.com.br</b>
           </p>
         </div>
       </div>

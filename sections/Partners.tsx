@@ -26,42 +26,17 @@ export default function Section(
     partners = [
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/parana.png",
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/SEDUC%20RS.jpg",
         alt: "accenture",
       },
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/rio-grande-sul.png",
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/SEDUC%20TO.jpg",
         alt: "accenture",
       },
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/mato-grosso.png",
-        alt: "accenture",
-      },
-      {
-        logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/salvador.png",
-        alt: "accenture",
-      },
-      {
-        logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/santa-catarina.png",
-        alt: "Mercado Livre",
-      },
-      {
-        logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/pernambuco.png",
-        alt: "accenture",
-      },
-      {
-        logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/fortaleza.png",
-        alt: "accenture",
-      },
-      {
-        logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/tocantins.png",
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/gov/SEDUC%20PR.png",
         alt: "accenture",
       },
     ],

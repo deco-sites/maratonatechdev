@@ -38,81 +38,43 @@ export default function Section(
         sponsors: [
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/g10.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/INSTITUTO%20COCA-COLA2.avif",
             alt: "accenture",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/i.spr_.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/ARCO%20INSTITUTO.png",
             alt: "accenture",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/Logo_Preferencial.POS_.RGB_.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/B3%20SOCIAL.png",
             alt: "accenture",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/mercado-livre-1536x391.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/FINEP.png",
             alt: "Mercado Livre",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/i.spr-1.png",
-            alt: "accenture",
-          },
-        ],
-      },
-      {
-        sponsors: [
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/LogoRD.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/FUNDACAO-BEHRING.png",
             alt: "accenture",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/Finep.jpg",
-            alt: "Finep",
-          },
-        ],
-      },
-      {
-        sponsors: [
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/Copastur.jpeg",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/MERCADO%20LIVRE.png",
             alt: "accenture",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/i.spr4_.png",
-            alt: "Finep",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/INSTITUTO%20COCA-COLA.webp",
+            alt: "accenture",
           },
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/Logotipo.GrupoBoticario.CMYK_.Preferencial.Policromatico.Horizontal.Positivo-1536x425.png",
-            alt: "Finep",
-          },
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/Ada-1-1536x1114.png",
-            alt: "Finep",
-          },
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/i.spr-1.png",
-            alt: "Finep",
-          },
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/LOGO_WATCH_PRINCIPAL_FULL-1536x677.png",
-            alt: "Finep",
-          },
-          {
-            logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/ci-t-logo-ED038B1C6B-seeklogo.com_.png",
-            alt: "Finep",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/INSTITUTO%20GOL.webp",
+            alt: "accenture",
           },
         ],
       },
