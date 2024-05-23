@@ -27,7 +27,7 @@ export interface Props {
   photoShoot?: Photos;
 }
 
-export default function AboutMarathon({
+export default function PhotoBook({
   title =
     "Imersão <span class='bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text font-extrabold'>Tech</span>",
   description =

@@ -11,25 +11,26 @@ import * as $$$$$$3 from "./sections/CallToAction.tsx";
 import * as $$$$$$4 from "./sections/Faq.tsx";
 import * as $$$$$$5 from "./sections/Footer.tsx";
 import * as $$$$$$6 from "./sections/Header.tsx";
-import * as $$$$$$23 from "./sections/hero-1.tsx";
-import * as $$$$$$24 from "./sections/hero-2.tsx";
+import * as $$$$$$24 from "./sections/hero-1.tsx";
+import * as $$$$$$25 from "./sections/hero-2.tsx";
 import * as $$$$$$7 from "./sections/Hero.tsx";
-import * as $$$$$$25 from "./sections/hero2.tsx";
+import * as $$$$$$26 from "./sections/hero2.tsx";
 import * as $$$$$$8 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$9 from "./sections/ImpactAndTestimonials.tsx";
-import * as $$$$$$10 from "./sections/Institutional/PhotoBook.tsx";
-import * as $$$$$$11 from "./sections/Institutional/Regulament.tsx";
-import * as $$$$$$12 from "./sections/InterestForm.tsx";
-import * as $$$$$$13 from "./sections/Logos.tsx";
-import * as $$$$$$14 from "./sections/MediaAndAwards.tsx";
-import * as $$$$$$15 from "./sections/Partners.tsx";
-import * as $$$$$$16 from "./sections/Schedule.tsx";
-import * as $$$$$$17 from "./sections/Sponsors.tsx";
-import * as $$$$$$18 from "./sections/Support.tsx";
-import * as $$$$$$19 from "./sections/Testimonials.tsx";
-import * as $$$$$$20 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$21 from "./sections/WhoCanParticipate.tsx";
-import * as $$$$$$22 from "./sections/WhoMadeIt.tsx";
+import * as $$$$$$10 from "./sections/Institutional/ConexaoFuturo.tsx";
+import * as $$$$$$11 from "./sections/Institutional/PhotoBook.tsx";
+import * as $$$$$$12 from "./sections/Institutional/Regulament.tsx";
+import * as $$$$$$13 from "./sections/InterestForm.tsx";
+import * as $$$$$$14 from "./sections/Logos.tsx";
+import * as $$$$$$15 from "./sections/MediaAndAwards.tsx";
+import * as $$$$$$16 from "./sections/Partners.tsx";
+import * as $$$$$$17 from "./sections/Schedule.tsx";
+import * as $$$$$$18 from "./sections/Sponsors.tsx";
+import * as $$$$$$19 from "./sections/Support.tsx";
+import * as $$$$$$20 from "./sections/Testimonials.tsx";
+import * as $$$$$$21 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$22 from "./sections/WhoCanParticipate.tsx";
+import * as $$$$$$23 from "./sections/WhoMadeIt.tsx";
 
 const manifest = {
   "sections": {
@@ -40,25 +41,26 @@ const manifest = {
     "site/sections/Faq.tsx": $$$$$$4,
     "site/sections/Footer.tsx": $$$$$$5,
     "site/sections/Header.tsx": $$$$$$6,
-    "site/sections/hero-1.tsx": $$$$$$23,
-    "site/sections/hero-2.tsx": $$$$$$24,
+    "site/sections/hero-1.tsx": $$$$$$24,
+    "site/sections/hero-2.tsx": $$$$$$25,
     "site/sections/Hero.tsx": $$$$$$7,
-    "site/sections/hero2.tsx": $$$$$$25,
+    "site/sections/hero2.tsx": $$$$$$26,
     "site/sections/ImageWithParagraph.tsx": $$$$$$8,
     "site/sections/ImpactAndTestimonials.tsx": $$$$$$9,
-    "site/sections/Institutional/PhotoBook.tsx": $$$$$$10,
-    "site/sections/Institutional/Regulament.tsx": $$$$$$11,
-    "site/sections/InterestForm.tsx": $$$$$$12,
-    "site/sections/Logos.tsx": $$$$$$13,
-    "site/sections/MediaAndAwards.tsx": $$$$$$14,
-    "site/sections/Partners.tsx": $$$$$$15,
-    "site/sections/Schedule.tsx": $$$$$$16,
-    "site/sections/Sponsors.tsx": $$$$$$17,
-    "site/sections/Support.tsx": $$$$$$18,
-    "site/sections/Testimonials.tsx": $$$$$$19,
-    "site/sections/Theme/Theme.tsx": $$$$$$20,
-    "site/sections/WhoCanParticipate.tsx": $$$$$$21,
-    "site/sections/WhoMadeIt.tsx": $$$$$$22,
+    "site/sections/Institutional/ConexaoFuturo.tsx": $$$$$$10,
+    "site/sections/Institutional/PhotoBook.tsx": $$$$$$11,
+    "site/sections/Institutional/Regulament.tsx": $$$$$$12,
+    "site/sections/InterestForm.tsx": $$$$$$13,
+    "site/sections/Logos.tsx": $$$$$$14,
+    "site/sections/MediaAndAwards.tsx": $$$$$$15,
+    "site/sections/Partners.tsx": $$$$$$16,
+    "site/sections/Schedule.tsx": $$$$$$17,
+    "site/sections/Sponsors.tsx": $$$$$$18,
+    "site/sections/Support.tsx": $$$$$$19,
+    "site/sections/Testimonials.tsx": $$$$$$20,
+    "site/sections/Theme/Theme.tsx": $$$$$$21,
+    "site/sections/WhoCanParticipate.tsx": $$$$$$22,
+    "site/sections/WhoMadeIt.tsx": $$$$$$23,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,

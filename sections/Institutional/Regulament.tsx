@@ -7,7 +7,7 @@ export interface Props {
   content?: string;
 }
 
-export default function AboutMarathon({
+export default function Regulaments({
   content =
     "Conexão <span class='bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text font-extrabold'>Futuro</span>",
 }: Props) {

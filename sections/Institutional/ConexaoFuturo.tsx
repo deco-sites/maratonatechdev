@@ -25,7 +25,7 @@ export interface Props {
   cta?: Button;
 }
 
-export default function AboutMarathon({
+export default function ConexaoFuturo({
   title =
     "Conexão <span class='bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text font-extrabold'>Futuro</span>",
   description =
