@@ -43,7 +43,7 @@ export default function BlogPosts({
     {
       title: "Qual é o cronograma da Maratona Tech?",
       answer:
-        "Período de inscrição - 20/maio a 04/ago | Fase 1 - 12/ago até 15/set | Fase 2 - 30/set até 13/out | Cerimônia de Premiação - 27/nov",
+        "Período de inscrição - 20/maio a 28/julho | Fase 1 - 12/ago até 15/set | Fase 2 - 30/set até 13/out | Cerimônia de Premiação - 27/nov",
     },
     {
       title: "Preciso pagar alguma coisa?",
