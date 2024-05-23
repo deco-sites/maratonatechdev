@@ -75,30 +75,30 @@ export default function Footer({
                 target="_blank"
                 class="text-yellow-500 text-2xl"
               >
-                <ion-icon name="logo-instagram" role="img" class="md hydrated">
-                </ion-icon>
+                {/*// @ts-ignore*/}
+                <ion-icon name="logo-instagram" role="img" class="md hydrated"></ion-icon>
               </a>
               <a
                 href="https://www.youtube.com/channel/UCt8_P6TgAA65FgbWgxydwBQ"
                 target="_blank"
                 class="text-yellow-500 text-2xl"
               >
-                <ion-icon name="logo-youtube" role="img" class="md hydrated">
-                </ion-icon>
+                {/*// @ts-ignore*/}
+                <ion-icon name="logo-youtube" role="img" class="md hydrated"></ion-icon>
               </a>
               <a
                 href="https://www.tiktok.com/@maratonatech"
                 target="_blank"
                 class="text-yellow-500 text-2xl"
               >
-                <ion-icon name="logo-tiktok" role="img" class="md hydrated">
-                </ion-icon>
+                {/*// @ts-ignore*/}
+                <ion-icon name="logo-tiktok" role="img" class="md hydrated"></ion-icon>
               </a>
             </div>
           </div>
         </div>
       </section>
-      <section class="bg-neutral-900 py-3">
+      <section class="bg-neutral-900 py-3 pb-6">
         <div class="container flex items-center justify-around mx-auto px-5 lg:px-0 text-center">
           <a
             href="https://gestaodetrafegonext.com.br/"
@@ -108,7 +108,7 @@ export default function Footer({
             Desenvolvido por <span class="text-green-600">Agencia NXT LVL</span>
           </a>
           <div class="flex items-center self-end gap-[4px]">
-            <a class="flex items-center self-end gap-[4px]"s href="https://deco.cx">
+            <a class="flex items-center self-end gap-[4px]" href="https://deco.cx">
               <p class="text-white text-[10px] font-medium">Powered by</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

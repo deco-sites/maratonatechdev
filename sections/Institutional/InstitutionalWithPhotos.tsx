@@ -45,10 +45,10 @@ export default function InstitutionalWithPhotos({
   },
 }: Props) {
   return (
-    <nav class="bg-slate-950 pt-20 pb-36 space-y-10 text-white px-8 lg:px-0">
+    <nav class="bg-slate-950 pt-36 pb-36 space-y-10 text-white px-8 lg:px-0">
       <Image
         width={400}
-        class="absolute w-[200px] -top-[150px] -left-[90px] lg:left-0 lg:-top-[20px] lg:w-[200px] z-20"
+        class="absolute w-[200px] -top-[150px] -left-[90px] lg:left-0 lg:top-[58px] lg:w-[200px] z-20"
         src={leftFloatingImage ?? ""}
         alt={leftFloatingImage ?? ""}
         decoding="async"
@@ -56,13 +56,13 @@ export default function InstitutionalWithPhotos({
       />
       <Image
         width={400}
-        class="absolute w-[160px] -top-[200px] right-[0px] lg:-top-[30px] lg:w-[300px] lg:right-0 z-20 "
+        class="absolute w-[160px] -top-[200px] right-[0px] lg:top-[43px] lg:w-[300px] lg:right-0 z-20 "
         src={rightFloatingImage ?? ""}
         alt={rightFloatingImage ?? ""}
         decoding="async"
         loading="lazy"
       />
-      <div class="lg:w-8/12 mx-auto">
+      <div class="flex flex-col gap-4 lg:w-8/12 mx-auto">
         <h1
           class="text-xl lg:text-4xl text-center font-sora"
           dangerouslySetInnerHTML={{
@@ -81,7 +81,7 @@ export default function InstitutionalWithPhotos({
             {photoShoot.images?.map((img, index) => (
               <Image
                 width={333}
-                class="rounded-2xl shadow-lg"
+                class="w-full rounded-2xl shadow-lg"
                 src={img}
                 alt={img}
                 decoding="async"
