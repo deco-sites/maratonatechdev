@@ -38,11 +38,6 @@ export default function Section(
         sponsors: [
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/INSTITUTO%20COCA-COLA2.avif",
-            alt: "accenture",
-          },
-          {
-            logo:
               "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/ARCO%20INSTITUTO.png",
             alt: "accenture",
           },
