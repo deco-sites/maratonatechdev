@@ -27,11 +27,6 @@ export default function Section(
     supporters = [
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/ARCO%20INSTITUTO.png",
-        alt: "accenture",
-      },
-      {
-        logo:
           "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/CHATCLASS.png",
         alt: "accenture",
       },
