@@ -114,7 +114,7 @@ export default function ImpactAndTestimonials({
   anchorIdTestimonials = "",
 }: Props) {
   return (
-    <section id={anchorId} class="bg-pink-600 border-t-4 border-yellow-500 py-10 -my-8 px-8 lg:px-0 text-white -skew-y-2 relative">
+    <section id={anchorId} class="bg-pink-600 border-t-4 border-yellow-500 py-10 -my-8 px-8 lg:px-0 text-white -skew-y-2 relative overflow-x-clip">
       <Image
         width={400}
         class="absolute w-[200px] -top-[150px] -left-[90px] lg:left-0 lg:-top-[230px] lg:w-[200px] z-50"
