@@ -82,12 +82,12 @@ export default function Section(
         <img
           src={highlight}
           alt=""
-          class="mx-auto lg:w-2/12/"
+          class="mx-auto lg:w-2/12"
         />
         {sponsorsGroup?.map((groups) => (
           <ul class="my-10 flex flex-wrap justify-center items-center gap-8">
             {groups.sponsors?.map((sponsors) => (
-              <li class="w-[150px] p-3">
+              <li class="max-h-[80px] max-w-[120px] p-3">
                 <img
                   src={sponsors.logo}
                   alt={sponsors.alt}
