@@ -37,7 +37,7 @@ export default function ConexaoFuturo({
   cta = {
     title: "Acesse a comunidade do Conexão Futuro no Discord",
     buttonLabel: "Clique aqui para acessar",
-    href: "",
+    href: "https://discord.gg/kMQUwDdfkm",
   },
 }: Props) {
   return (
