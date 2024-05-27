@@ -81,10 +81,11 @@ export default function Section(
         </h3>
         <ul class="my-10 flex flex-wrap justify-center items-center gap-8">
           {supporters?.map((supporter) => (
-            <li class="w-[200px] p-3">
+            <li class="p-3">
               <img
                 src={supporter.logo}
                 alt={supporter.alt}
+                class="max-h-[80px] max-w-[100px]"
               />
             </li>
           ))}
