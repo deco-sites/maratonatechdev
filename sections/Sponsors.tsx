@@ -77,7 +77,7 @@ export default function Section(
   }: Props,
 ) {
   return (
-    <div id={anchorId} class="lg:w-8/12 mx-auto">
+    <div id={anchorId} className="lg:w-8/12 mx-auto">
       <div class="pt-10 pb-20 px-8 lg:px-0">
         <img
           src={highlight}
@@ -91,7 +91,7 @@ export default function Section(
                 <img
                   src={sponsors.logo}
                   alt={sponsors.alt}
-                  class="max-h-[80px] max-w-[150px]
+                  class="max-h-[80px] max-w-[150px]"
                 />
               </li>
             ))}
