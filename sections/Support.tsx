@@ -70,6 +70,11 @@ export default function Section(
           "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/ME%20SALVA.webp",
         alt: "accenture",
       },
+      {
+        logo:
+          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/marca-nav.svg",
+        alt: "accenture",
+      },
     ],
   }: Props,
 ) {
