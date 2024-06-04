@@ -38,7 +38,7 @@ export default function Section(
         sponsors: [
           {
             logo:
-              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/ARCO%20INSTITUTO.png",
+              "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/apoio/ARCO%20INSTITUTO.png",
             alt: "accenture",
           },
           {
