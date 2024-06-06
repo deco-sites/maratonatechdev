@@ -91,7 +91,7 @@ export default function Section(
                 <img
                   src={sponsors.logo}
                   alt={sponsors.alt}
-                  class="max-h-[80px] max-w-[150px]"
+                  class="max-h-[100px] max-w-[100px]"
                 />
               </li>
             ))}

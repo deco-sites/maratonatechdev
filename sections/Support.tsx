@@ -23,7 +23,7 @@ interface Props {
 
 export default function Section(
   {
-    title = "Apoio",
+    title = "Parceiros Educacionais",
     supporters = [
       {
         logo:
@@ -90,7 +90,7 @@ export default function Section(
               <img
                 src={supporter.logo}
                 alt={supporter.alt}
-                class="w-full max-h-[100px] max-w-[100px]"
+                class="max-h-[100px] max-w-[100px]"
               />
             </li>
           ))}
