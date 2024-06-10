@@ -108,11 +108,46 @@
       "__resolveType": "site/sections/InterestForm.tsx"
     },
     {
+      "__resolveType": "site/sections/Support.tsx",
+      "title": "Cota Prata",
+      "supporters": [
+        {
+          "logo": "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/cota-prata/ARCO-INSTITUTO.png"
+        },
+        {
+          "logo": "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/cota-prata/FINEP.png"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Support.tsx",
+      "title": "Cota Bronze",
+      "supporters": [
+        {
+          "logo": "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/cota-prata/ARCO-INSTITUTO.png"
+        },
+        {
+          "logo": "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/cota-prata/FINEP.png"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/WhoMadeIt.tsx"
     },
     {
       "__resolveType": "site/sections/Sponsors.tsx",
-      "anchorId": "sponsor"
+      "anchorId": "sponsor",
+      "sponsorsGroup": [
+        {
+          "sponsors": [
+            {
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/19dc803d-086a-4676-9942-b07dd635c4e5",
+              "alt": "Accenture"
+            },
+            {}
+          ]
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Partners.tsx"
