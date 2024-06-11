@@ -17,11 +17,16 @@ interface Props {
   /**
    * @description Major Sponsor.
    */
-  highlight?: ImageWidget;
+  highlightSponsor?: {
+    label: string;
+    logo: ImageWidget;
+  };
+
   /**
    * @description Display Sponsors Logos.
    */
   sponsorsGroup?: {
+    label?: string;
     sponsors?: Sponsors[];
   }[];
   anchorId?: string;
@@ -29,10 +34,13 @@ interface Props {
 
 export default function Section(
   {
-    anchorId = '',
-    title = "Quem faz a Maratona Tech",
-    highlight =
-      "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/ifood-43-1.png",
+    anchorId = "",
+    title = "Patrocinadores",
+    highlightSponsor = {
+      label: "Cota Ouro",
+      logo:
+        "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/ifood-43-1.png",
+    },
     sponsorsGroup = [
       {
         sponsors: [
@@ -79,13 +87,21 @@ export default function Section(
   return (
     <div id={anchorId} className="lg:w-8/12 mx-auto">
       <div class="pt-10 pb-20 px-8 lg:px-0">
-        <img
-          src={highlight}
-          alt=""
-          class="mx-auto lg:w-2/12"
-        />
+        <h3 class="text-2xl text-center font-sora font-bold text-purple-800 mb-10">
+          {title}
+        </h3>
+        <div>
+          <h4 class="text-xl text-center font-sora font-bold text-purple-800 mb-3">{highlightSponsor.label}</h4>
+          <img
+            src={highlightSponsor.logo}
+            alt=""
+            class="mx-auto lg:w-2/12"
+          />
+        </div>
         {sponsorsGroup?.map((groups) => (
-          <ul class="my-10 flex flex-wrap justify-center items-center gap-8">
+          <ul class="my-16 flex flex-col flex-wrap justify-center items-center">
+              <h4 class="text-xl text-center font-sora font-bold text-purple-800 mb-3">{groups.label}</h4>
+              <div class="flex flex-wrap items-center gap-8 justify-center my-5">
             {groups.sponsors?.map((sponsors) => (
               <li class="p-3">
                 <img
@@ -95,6 +111,7 @@ export default function Section(
                 />
               </li>
             ))}
+            </div>
           </ul>
         ))}
       </div>

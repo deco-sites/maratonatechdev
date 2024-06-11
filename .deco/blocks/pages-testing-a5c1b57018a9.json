@@ -108,30 +108,6 @@
       "__resolveType": "site/sections/InterestForm.tsx"
     },
     {
-      "__resolveType": "site/sections/Support.tsx",
-      "title": "Cota Prata",
-      "supporters": [
-        {
-          "logo": "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/cota-prata/ARCO-INSTITUTO.png"
-        },
-        {
-          "logo": "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/cota-prata/FINEP.png"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Support.tsx",
-      "title": "Cota Bronze",
-      "supporters": [
-        {
-          "logo": "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/cota-prata/ARCO-INSTITUTO.png"
-        },
-        {
-          "logo": "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/cota-prata/FINEP.png"
-        }
-      ]
-    },
-    {
       "__resolveType": "site/sections/WhoMadeIt.tsx"
     },
     {
@@ -141,13 +117,56 @@
         {
           "sponsors": [
             {
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/19dc803d-086a-4676-9942-b07dd635c4e5",
-              "alt": "Accenture"
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/1b3bbd71-2545-4398-970c-0c406537fa2a",
+              "alt": "Arco Instituto"
             },
-            {}
-          ]
+            {
+              "alt": "Finep",
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2f16625c-4e2a-4de8-af3a-2ecaa80f94cf"
+            }
+          ],
+          "label": "Cota Prata"
+        },
+        {
+          "sponsors": [
+            {
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/472c3e81-ab8f-4ea6-93b2-97aa23b5b778",
+              "alt": "mercado livre"
+            },
+            {
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/ea4cb632-7c9f-4f34-aaee-5ef27f08f8d0",
+              "alt": "intituto coca cola"
+            },
+            {
+              "alt": "instituto gol",
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2212cc79-ac36-49c1-a987-179875580473"
+            },
+            {
+              "alt": "fundação behring",
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2b33a9d1-6c78-471d-9667-100c347fbb16"
+            },
+            {
+              "alt": "instituto localiza",
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/57ba9eaa-85af-47ac-aa5e-f0c6299819c7"
+            }
+          ],
+          "label": "Cota Bronze"
+        },
+        {
+          "sponsors": [
+            {
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/e4dd3aa7-7b46-4d61-aaaa-be5ae00bc315",
+              "alt": "b3 social"
+            }
+          ],
+          "label": "Apoio"
         }
-      ]
+      ],
+      "highlightSponsor": {
+        "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/4cb4959d-8e77-4856-9ed8-1d51c19ea1cf",
+        "label": "Cota Ouro"
+      },
+      "title": "Patrocinadores"
     },
     {
       "__resolveType": "site/sections/Partners.tsx"
