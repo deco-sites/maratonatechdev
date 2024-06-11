@@ -112,6 +112,7 @@
     },
     {
       "__resolveType": "site/sections/Sponsors.tsx",
+      "title": "Patrocinadores",
       "anchorId": "sponsor",
       "sponsorsGroup": [
         {
@@ -165,8 +166,7 @@
       "highlightSponsor": {
         "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/4cb4959d-8e77-4856-9ed8-1d51c19ea1cf",
         "label": "Cota Ouro"
-      },
-      "title": "Patrocinadores"
+      }
     },
     {
       "__resolveType": "site/sections/Partners.tsx"
