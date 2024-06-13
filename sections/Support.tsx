@@ -90,7 +90,7 @@ export default function Section(
               <img
                 src={supporter.logo}
                 alt={supporter.alt}
-                class="max-h-[100px] max-w-[100px]"
+                class="max-h-[100px] max-w-[130px]"
               />
             </li>
           ))}

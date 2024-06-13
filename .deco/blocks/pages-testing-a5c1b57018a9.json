@@ -172,7 +172,39 @@
       "__resolveType": "site/sections/Partners.tsx"
     },
     {
-      "__resolveType": "site/sections/Support.tsx"
+      "__resolveType": "site/sections/Support.tsx",
+      "supporters": [
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/8b2cbf42-9621-45ca-8cd9-9af2e0fb4574"
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/aeed18e4-12c4-4487-8855-5523b5426475"
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2369290d-2c9a-491b-ab15-273e113d267a"
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/a10a199c-ca45-4996-9a7d-7850202d6e0f"
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/8caf613e-88cf-4d3f-a6ed-eaf5c9adc691"
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/cc02b98c-d144-4855-ba61-ff48c4aea724"
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/842f487d-7d4c-447d-ab8b-a5ed2052cca3"
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/0ecb92fc-8aae-4df0-9e73-651aaf1a3339"
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/7d2e3cfa-73cc-4996-9400-9d6367d76fe4"
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/bb369d19-616c-41ff-b870-25e329104370"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/CallToAction.tsx"
