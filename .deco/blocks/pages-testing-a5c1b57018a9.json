@@ -124,6 +124,10 @@
             {
               "alt": "Finep",
               "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2f16625c-4e2a-4de8-af3a-2ecaa80f94cf"
+            },
+            {
+              "alt": "RocketSeat",
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/a4791eac-bea1-4f64-adac-ba8807e5dbb2"
             }
           ],
           "label": "Cota Prata"
@@ -200,9 +204,6 @@
         },
         {
           "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/7d2e3cfa-73cc-4996-9400-9d6367d76fe4"
-        },
-        {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/bb369d19-616c-41ff-b870-25e329104370"
         }
       ]
     },
