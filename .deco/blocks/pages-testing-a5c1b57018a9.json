@@ -119,15 +119,21 @@
           "sponsors": [
             {
               "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/1b3bbd71-2545-4398-970c-0c406537fa2a",
-              "alt": "Arco Instituto"
+              "alt": "Arco Instituto",
+              "maxWidth": 100,
+              "maxHeight": 100
             },
             {
               "alt": "Finep",
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2f16625c-4e2a-4de8-af3a-2ecaa80f94cf"
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2f16625c-4e2a-4de8-af3a-2ecaa80f94cf",
+              "maxWidth": 100,
+              "maxHeight": 100
             },
             {
               "alt": "RocketSeat",
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/a4791eac-bea1-4f64-adac-ba8807e5dbb2"
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/a4791eac-bea1-4f64-adac-ba8807e5dbb2",
+              "maxWidth": 100,
+              "maxHeight": 100
             }
           ],
           "label": "Cota Prata"
@@ -136,23 +142,33 @@
           "sponsors": [
             {
               "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/472c3e81-ab8f-4ea6-93b2-97aa23b5b778",
-              "alt": "mercado livre"
+              "alt": "mercado livre",
+              "maxWidth": 100,
+              "maxHeight": 100
             },
             {
               "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/ea4cb632-7c9f-4f34-aaee-5ef27f08f8d0",
-              "alt": "intituto coca cola"
+              "alt": "intituto coca cola",
+              "maxWidth": 100,
+              "maxHeight": 100
             },
             {
               "alt": "instituto gol",
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/09d6ccaf-1be6-4640-b62b-7b6a6b2c6832"
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/09d6ccaf-1be6-4640-b62b-7b6a6b2c6832",
+              "maxWidth": 100,
+              "maxHeight": 100
             },
             {
               "alt": "fundação behring",
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2b33a9d1-6c78-471d-9667-100c347fbb16"
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2b33a9d1-6c78-471d-9667-100c347fbb16",
+              "maxWidth": 100,
+              "maxHeight": 100
             },
             {
               "alt": "instituto localiza",
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/57ba9eaa-85af-47ac-aa5e-f0c6299819c7"
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/57ba9eaa-85af-47ac-aa5e-f0c6299819c7",
+              "maxWidth": 100,
+              "maxHeight": 100
             }
           ],
           "label": "Cota Bronze"
@@ -161,7 +177,9 @@
           "sponsors": [
             {
               "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/e4dd3aa7-7b46-4d61-aaaa-be5ae00bc315",
-              "alt": "b3 social"
+              "alt": "b3 social",
+              "maxWidth": 150,
+              "maxHeight": 150
             }
           ],
           "label": "Apoio"
@@ -169,7 +187,9 @@
       ],
       "highlightSponsor": {
         "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/4cb4959d-8e77-4856-9ed8-1d51c19ea1cf",
-        "label": "Cota Ouro"
+        "label": "Cota Ouro",
+        "maxWidth": 100,
+        "maxHeight": 100
       }
     },
     {

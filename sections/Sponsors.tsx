@@ -7,6 +7,8 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 interface Sponsors {
   logo?: ImageWidget;
   alt?: string;
+  maxWidth?: number;
+  maxHeight?: number;
 }
 
 interface Props {
@@ -20,6 +22,8 @@ interface Props {
   highlightSponsor?: {
     label: string;
     logo: ImageWidget;
+    maxWidth?: number;
+    maxHeight?: number;
   };
 
   /**
@@ -86,7 +90,7 @@ export default function Section(
 ) {
   return (
     <div id={anchorId} className="lg:w-8/12 mx-auto">
-      <div class="pt-10 pb-20 px-8 lg:px-0">
+      <div class="pt-10 pb-10 px-8 lg:px-0">
         <h3 class="text-2xl text-center font-sora font-bold text-purple-800 mb-10">
           {title}
         </h3>
@@ -95,11 +99,15 @@ export default function Section(
           <img
             src={highlightSponsor.logo}
             alt=""
-            class="mx-auto lg:w-2/12"
+            style={{
+              maxHeight: highlightSponsor?.maxHeight ? `${highlightSponsor.maxHeight}px` : 'none',
+              maxWidth: highlightSponsor?.maxWidth ? `${highlightSponsor.maxWidth}px` : 'none',
+            }}
+            className="mx-auto max-h-[100px] max-w-[100px]"
           />
         </div>
         {sponsorsGroup?.map((groups) => (
-          <ul class="my-16 flex flex-col flex-wrap justify-center items-center">
+          <ul class="mt-16 flex flex-col flex-wrap justify-center items-center">
               <h4 class="text-xl text-center font-sora font-bold text-purple-800 mb-3">{groups.label}</h4>
               <div class="flex flex-wrap items-center gap-8 justify-center my-5">
             {groups.sponsors?.map((sponsors) => (
@@ -107,7 +115,11 @@ export default function Section(
                 <img
                   src={sponsors.logo}
                   alt={sponsors.alt}
-                  class="max-h-[100px] max-w-[100px]"
+                  style={{
+                    maxHeight: sponsors?.maxHeight ? `${sponsors.maxHeight}px` : 'none',
+                    maxWidth: sponsors?.maxWidth ? `${sponsors.maxWidth}px` : 'none',
+                  }}
+                  className="max-h-[100px] max-w-[100px]"
                 />
               </li>
             ))}
