@@ -193,7 +193,34 @@
       }
     },
     {
-      "__resolveType": "site/sections/Partners.tsx"
+      "__resolveType": "site/sections/Partners.tsx",
+      "partners": [
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/224077a5-b91a-4b5d-b613-448c1ed6383a",
+          "maxWidth": 100,
+          "maxHeight": 100
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/8245549a-e2b5-4871-a757-42f51da47da8",
+          "maxWidth": 100,
+          "maxHeight": 100
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/5052b027-c48c-4a3e-8b1d-b5b0d6355e7c",
+          "maxWidth": 100,
+          "maxHeight": 100
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2abd6737-321b-4fab-9664-a408fbd482dd",
+          "maxWidth": 100,
+          "maxHeight": 100
+        },
+        {
+          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/0ab07a47-27fc-43b8-aab3-2b09e02e0649",
+          "maxWidth": 150,
+          "maxHeight": 150
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Support.tsx",

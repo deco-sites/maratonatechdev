@@ -7,6 +7,8 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 interface Partners {
   logo?: ImageWidget;
   alt?: string;
+  maxWidth?: number;
+  maxHeight?: number;
 }
 
 interface Props {
@@ -50,10 +52,15 @@ export default function Section(
         </h3>
         <ul class="my-10 flex flex-wrap justify-center items-center gap-8">
           {partners?.map((partner) => (
-            <li class="w-[150px] p-3">
+            <li class="p-3">
               <img
                 src={partner.logo}
                 alt={partner.alt}
+                style={{
+                  maxHeight: partner?.maxHeight ? `${partner.maxHeight}px` : 'none',
+                  maxWidth: partner?.maxWidth ? `${partner.maxWidth}px` : 'none',
+                }}
+                className="mx-auto max-h-[100px] max-w-[100px]"
               />
             </li>
           ))}
