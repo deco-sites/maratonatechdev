@@ -124,12 +124,6 @@
               "maxHeight": 100
             },
             {
-              "alt": "Finep",
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2f16625c-4e2a-4de8-af3a-2ecaa80f94cf",
-              "maxWidth": 100,
-              "maxHeight": 100
-            },
-            {
               "alt": "RocketSeat",
               "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/a4791eac-bea1-4f64-adac-ba8807e5dbb2",
               "maxWidth": 100,
@@ -169,6 +163,11 @@
               "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/57ba9eaa-85af-47ac-aa5e-f0c6299819c7",
               "maxWidth": 100,
               "maxHeight": 100
+            },
+            {
+              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/1774a9af-09b9-4274-906e-fddf794cbafc",
+              "alt": "Finep Gov",
+              "maxWidth": 200
             }
           ],
           "label": "Cota Bronze"
