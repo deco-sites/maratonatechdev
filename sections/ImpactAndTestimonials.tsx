@@ -82,10 +82,6 @@ export default function ImpactAndTestimonials({
       title: "100%",
       description: "dos estados brasileiros",
     },
-    {
-      title: "R$ 6,68",
-      description: "custo por estudantes",
-    },
   ],
   buttonFloatingImage =
     "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/df712c98-b498-472c-89c1-b76bb7fb7bc6",

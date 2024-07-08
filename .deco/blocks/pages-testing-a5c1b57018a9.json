@@ -101,10 +101,6 @@
       "mediaAnchorId": "media"
     },
     {
-      "__resolveType": "site/sections/Schedule.tsx",
-      "anchorId": "schedule"
-    },
-    {
       "__resolveType": "site/sections/InterestForm.tsx"
     },
     {
@@ -229,9 +225,6 @@
         },
         {
           "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/aeed18e4-12c4-4487-8855-5523b5426475"
-        },
-        {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/a10a199c-ca45-4996-9a7d-7850202d6e0f"
         },
         {
           "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/8caf613e-88cf-4d3f-a6ed-eaf5c9adc691"
