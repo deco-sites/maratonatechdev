@@ -101,6 +101,9 @@
       "mediaAnchorId": "media"
     },
     {
+      "__resolveType": "site/sections/Schedule.tsx"
+    },
+    {
       "__resolveType": "site/sections/InterestForm.tsx"
     },
     {
