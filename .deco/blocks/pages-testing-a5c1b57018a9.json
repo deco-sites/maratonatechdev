@@ -101,7 +101,9 @@
       "mediaAnchorId": "media"
     },
     {
-      "__resolveType": "site/sections/Schedule.tsx"
+      "__resolveType": "site/sections/Schedule.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/30b47133-795a-4261-9146-70f4bf964b4f",
+      "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/aadc7b0a-fccf-48c5-8303-dc64935b60a3"
     },
     {
       "__resolveType": "site/sections/InterestForm.tsx"
