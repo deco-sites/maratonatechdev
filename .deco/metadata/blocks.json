@@ -154,5 +154,9 @@
   "/.deco/blocks/Preview%20%2Fsections%2FSchedule.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Schedule.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FMediaAndAwards.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/MediaAndAwards.tsx"
   }
 }

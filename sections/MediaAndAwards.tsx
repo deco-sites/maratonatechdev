@@ -108,11 +108,6 @@ export default function MediaAndAwards({
         color: "#a855f7",
       },
       {
-        description: "Notebooks",
-        icon: "laptop-outline",
-        color: "#eab308",
-      },
-      {
         description: "Cursos Tecnológicos",
         icon: "layers-outline",
         color: "#ec4899",
@@ -184,7 +179,7 @@ export default function MediaAndAwards({
           {awards.pins?.map((pin, index) => (
             <div
               class={awards.pins && awards.pins.length - 1 === index
-                ? "col-span-2 lg:col-span-3 text-center text-white flex flex-col justify-center items-center"
+                ? "text-center text-white flex flex-col justify-center items-center"
                 : "text-center text-white flex flex-col justify-center items-center"}
             >
               <span
