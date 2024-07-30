@@ -46,12 +46,15 @@ export default function HeroFlats({
   return (
     <section
       id="hero"
-      class="bg-black min-h-[930px] lg:min-h-[828px] lg:flex lg:items-center text-white px-8 lg:px-0 bg-[center_top_1rem]"
+      class="bg-black min-h-[930px] lg:min-h-[828px] lg:flex lg:flex-col lg:items-center text-white bg-[center_top_1rem]"
     >
-      <nav class="lg:w-10/12 mx-auto lg:-mt-20">
+      <div className="w-full bg-red-600 p-3 text-center text-white">
+        <h1 className="lg:text-xl font-bold">Inscrições Prorrogadas até 11 de agosto!</h1>
+      </div>
+      <nav class="lg:w-10/12 mx-auto lg:-mt-20 px-8 lg:px-0">
         <div class="flex flex-col items-center gap-8">
           <div
-            class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 justify-end ${
+            class={`flex w-full xl:container xl:mx-auto mx-5 md:mx-10 z-10 justify-end ${
               image
                 ? PLACEMENT[placement]
                 : "flex-col items-center justify-center text-center"
