@@ -20,8 +20,8 @@
       "title": "<h1 class=\"text-4xl lg:text-5xl font-bold text-center lg:text-left mb-3 font-sora\">A maior\r\n  <span class=\"underline decoration-wavy decoration-blue-500\">competição de tecnologia entre escolas</span> do Brasil.\r\n</h1>",
       "cta": [
         {
-          "href": "https://portalolimpico.com.br/pagina_cadastro",
-          "text": "FAÇA SUA INSCRIÇÃO GRATUITAMENTE",
+          "href": "https://portalolimpico.com.br/",
+          "text": "ACESSE O PORTAL OLÍMPICO",
           "outline": false
         }
       ],
@@ -68,7 +68,11 @@
     {
       "__resolveType": "site/sections/ImpactAndTestimonials.tsx",
       "anchorId": "impactos",
-      "anchorIdTestimonials": "depoimentos"
+      "anchorIdTestimonials": "depoimentos",
+      "cta": {
+        "text": "ACESSE O PORTAL OLÍMPICO",
+        "href": "https://portalolimpico.com.br"
+      }
     },
     {
       "__resolveType": "site/sections/ActionsAndVideo.tsx",
@@ -98,7 +102,13 @@
     {
       "__resolveType": "site/sections/MediaAndAwards.tsx",
       "anchorId": "awards",
-      "mediaAnchorId": "media"
+      "mediaAnchorId": "media",
+      "awards": {
+        "cta": {
+          "text": "ACESSE O PORTAL OLÍMPICO",
+          "href": "https://portalolimpico.com.br"
+        }
+      }
     },
     {
       "__resolveType": "site/sections/Schedule.tsx",
