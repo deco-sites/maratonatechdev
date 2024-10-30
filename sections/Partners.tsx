@@ -65,8 +65,8 @@ export default function Section(
             </li>
           ))}
           <li class="p-3">
-              <img src='https://cdnsemit.salvador.ba.gov.br/secretarias/pms/logo_prefeitura.png'
-                className="mx-auto max-h-[100px] max-w-[100px] invert"
+              <img src='https://jantaranualcactus.com/images/logo-prefeitura.jpeg'
+                className="mx-auto max-h-[100px] max-w-[180px]"
               />
             </li>
         </ul>
