@@ -85,18 +85,20 @@ export default function HeroFlats({
                 }}
               >
               </div>
-              <div class="flex flex-col gap-3 lg:w-[72%] py-4">
+              <div class="flex flex-col gap-3 lg:w-[80%] py-4">
                 {cta?.map((item) => (
                   <a
                     key={item?.id}
                     id={item?.id}
-                    href={item?.href}
+                    href='https://jantaranualcactus.com/images/docs/Premiados%20-%20Maratona%20Tech.pdf'
+                    // href={item?.href}
                     target={item?.href.includes("http") ? "_blank" : "_self"}
                     class={`btn btn-primary border-0 w-full text-sm lg:text-base p-3 bg-green-600 font-extrabold uppercase flex uppercase text-center justify-center bg-gradient-to-r from-blue-600 to-pink-600 p-3 rounded-2xl text-white uppercase font-extrabold flex items-center justify-center ${
                       item.outline && "btn-outline"
                     }`}
                   >
-                    {item?.text}
+                    Resultado Premiação Maratona Tech 2024
+                    {/* {item?.text} */}
                   </a>
                 ))}
                 <div
