@@ -57,7 +57,7 @@
         ]
       },
       "logo": {
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/11c1d150-893c-4fb2-b32e-5d4f63f4fe73",
+        "src": "https://data.decoassets.com/maratonatechdev/5ba35f07-3b79-4ac7-a225-da63f9e44564/1742304175270-11c1d150-893c-4fb2-b32e-5d4f63f4fe73",
         "alt": "Maratona Tech"
       }
     },
@@ -72,7 +72,7 @@
           "outline": false
         }
       ],
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/c1c38f3d-a172-401c-a00a-09b17a1902f8",
+      "image": "https://data.decoassets.com/maratonatechdev/fb7b21a5-b2d9-49ca-9816-3ee0ae0eff11/1742304176432-c1c38f3d-a172-401c-a00a-09b17a1902f8",
       "placement": "left"
     },
     {
@@ -159,8 +159,8 @@
     },
     {
       "__resolveType": "site/sections/Schedule.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/f620d029-9436-4491-8078-ce8c60cdd36a",
-      "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/993d6f31-103a-4349-9837-325bf9e1f0ee"
+      "image": "https://data.decoassets.com/maratonatechdev/6f282838-ad6e-4ca0-96aa-793f58847c36/1742304177591-f620d029-9436-4491-8078-ce8c60cdd36a",
+      "imageMobile": "https://data.decoassets.com/maratonatechdev/126e4c36-21ff-4eee-b7a8-94be2863686d/1742304178697-993d6f31-103a-4349-9837-325bf9e1f0ee"
     },
     {
       "__resolveType": "site/sections/InterestForm.tsx"
@@ -176,14 +176,14 @@
         {
           "sponsors": [
             {
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/1b3bbd71-2545-4398-970c-0c406537fa2a",
+              "logo": "https://data.decoassets.com/maratonatechdev/825c6bc4-3d1e-48a1-85ee-a742c5db2678/1742304179871-1b3bbd71-2545-4398-970c-0c406537fa2a",
               "alt": "Arco Instituto",
               "maxWidth": 100,
               "maxHeight": 100
             },
             {
               "alt": "RocketSeat",
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/a4791eac-bea1-4f64-adac-ba8807e5dbb2",
+              "logo": "https://data.decoassets.com/maratonatechdev/eb90e4e6-2720-45c3-8827-2f4c46fca63e/1742304181165-a4791eac-bea1-4f64-adac-ba8807e5dbb2",
               "maxWidth": 100,
               "maxHeight": 100
             }
@@ -193,37 +193,37 @@
         {
           "sponsors": [
             {
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/472c3e81-ab8f-4ea6-93b2-97aa23b5b778",
+              "logo": "https://data.decoassets.com/maratonatechdev/840900fb-d374-4289-9ce6-5721867e4799/1742304182417-472c3e81-ab8f-4ea6-93b2-97aa23b5b778",
               "alt": "mercado livre",
               "maxWidth": 100,
               "maxHeight": 100
             },
             {
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/ea4cb632-7c9f-4f34-aaee-5ef27f08f8d0",
+              "logo": "https://data.decoassets.com/maratonatechdev/9bd8881b-7c23-4ef7-a2af-bbfac11f1731/1742304183472-ea4cb632-7c9f-4f34-aaee-5ef27f08f8d0",
               "alt": "intituto coca cola",
               "maxWidth": 100,
               "maxHeight": 100
             },
             {
               "alt": "instituto gol",
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/f2a0aa8e-7fb3-47e4-832d-7e0037a9333b",
+              "logo": "https://data.decoassets.com/maratonatechdev/af25a437-b163-43e8-9511-ed5405e26748/1742304184568-f2a0aa8e-7fb3-47e4-832d-7e0037a9333b",
               "maxWidth": 170,
               "maxHeight": 100
             },
             {
               "alt": "fundação behring",
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2b33a9d1-6c78-471d-9667-100c347fbb16",
+              "logo": "https://data.decoassets.com/maratonatechdev/a57f37a3-6057-4786-b5ff-467b9e4e2f82/1742304185655-2b33a9d1-6c78-471d-9667-100c347fbb16",
               "maxWidth": 100,
               "maxHeight": 100
             },
             {
               "alt": "instituto localiza",
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/57ba9eaa-85af-47ac-aa5e-f0c6299819c7",
+              "logo": "https://data.decoassets.com/maratonatechdev/1720be37-89d2-4933-9f0e-7d7c204fb957/1742304186786-57ba9eaa-85af-47ac-aa5e-f0c6299819c7",
               "maxWidth": 100,
               "maxHeight": 100
             },
             {
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/4a8b57a9-539c-464d-ab9b-24cb00e14218",
+              "logo": "https://data.decoassets.com/maratonatechdev/2e5b52cb-25f7-4dfc-b801-44f65b4cde29/1742304187917-4a8b57a9-539c-464d-ab9b-24cb00e14218",
               "alt": "Finep Gov",
               "maxWidth": 250
             }
@@ -233,7 +233,7 @@
         {
           "sponsors": [
             {
-              "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/e4dd3aa7-7b46-4d61-aaaa-be5ae00bc315",
+              "logo": "https://data.decoassets.com/maratonatechdev/211b920a-1e83-48d8-b41c-23a55e10a30b/1742304189112-e4dd3aa7-7b46-4d61-aaaa-be5ae00bc315",
               "alt": "b3 social",
               "maxWidth": 150,
               "maxHeight": 150
@@ -243,7 +243,7 @@
         }
       ],
       "highlightSponsor": {
-        "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/4cb4959d-8e77-4856-9ed8-1d51c19ea1cf",
+        "logo": "https://data.decoassets.com/maratonatechdev/130b843a-43be-45f3-8c2c-d0887eb7ae44/1742304190362-4cb4959d-8e77-4856-9ed8-1d51c19ea1cf",
         "label": "Cota Ouro",
         "maxWidth": 100,
         "maxHeight": 100
@@ -253,27 +253,27 @@
       "__resolveType": "site/sections/Partners.tsx",
       "partners": [
         {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/224077a5-b91a-4b5d-b613-448c1ed6383a",
+          "logo": "https://data.decoassets.com/maratonatechdev/ab102e88-2ca8-48bf-b201-f8636ade5bdf/1742304191450-224077a5-b91a-4b5d-b613-448c1ed6383a",
           "maxWidth": 100,
           "maxHeight": 100
         },
         {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/8245549a-e2b5-4871-a757-42f51da47da8",
+          "logo": "https://data.decoassets.com/maratonatechdev/2e876273-8d7c-4cde-afed-7583dd8b18d3/1742304192776-8245549a-e2b5-4871-a757-42f51da47da8",
           "maxWidth": 100,
           "maxHeight": 100
         },
         {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/5052b027-c48c-4a3e-8b1d-b5b0d6355e7c",
+          "logo": "https://data.decoassets.com/maratonatechdev/af5356e2-e028-448a-ab6b-4f6b8f0539fb/1742304194239-5052b027-c48c-4a3e-8b1d-b5b0d6355e7c",
           "maxWidth": 100,
           "maxHeight": 100
         },
         {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/2abd6737-321b-4fab-9664-a408fbd482dd",
+          "logo": "https://data.decoassets.com/maratonatechdev/3ddcd4b7-b9b9-4c95-9ee9-6cc571019cfd/1742304195700-2abd6737-321b-4fab-9664-a408fbd482dd",
           "maxWidth": 100,
           "maxHeight": 100
         },
         {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/0ab07a47-27fc-43b8-aab3-2b09e02e0649",
+          "logo": "https://data.decoassets.com/maratonatechdev/ac6c4869-d1fe-4c0a-b0b5-af4a51bfb590/1742304197409-0ab07a47-27fc-43b8-aab3-2b09e02e0649",
           "maxWidth": 150,
           "maxHeight": 150
         }
@@ -283,25 +283,25 @@
       "__resolveType": "site/sections/Support.tsx",
       "supporters": [
         {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/fe3b6845-ceff-4eab-bd65-d88762200695"
+          "logo": "https://data.decoassets.com/maratonatechdev/5a7c37ab-a362-4dbf-b4bc-40f1cbf1a473/1742304198674-fe3b6845-ceff-4eab-bd65-d88762200695"
         },
         {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/aeed18e4-12c4-4487-8855-5523b5426475"
+          "logo": "https://data.decoassets.com/maratonatechdev/dab5ac3e-bbd7-4795-a8ba-c45acb94deba/1742304199929-aeed18e4-12c4-4487-8855-5523b5426475"
         },
         {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/8caf613e-88cf-4d3f-a6ed-eaf5c9adc691"
+          "logo": "https://data.decoassets.com/maratonatechdev/53869bf5-a7c9-4483-ab11-bd13cd3b64dd/1742304201242-8caf613e-88cf-4d3f-a6ed-eaf5c9adc691"
         },
         {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/cc02b98c-d144-4855-ba61-ff48c4aea724"
+          "logo": "https://data.decoassets.com/maratonatechdev/cdb791d1-6ee3-406b-a169-bf20c356ed74/1742304202633-cc02b98c-d144-4855-ba61-ff48c4aea724"
         },
         {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/842f487d-7d4c-447d-ab8b-a5ed2052cca3"
+          "logo": "https://data.decoassets.com/maratonatechdev/618c4728-32f0-415c-9179-4e9777accf72/1742304203871-842f487d-7d4c-447d-ab8b-a5ed2052cca3"
         },
         {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/0ecb92fc-8aae-4df0-9e73-651aaf1a3339"
+          "logo": "https://data.decoassets.com/maratonatechdev/eed47375-1981-4003-a38a-4f1057fe1a8b/1742304205444-0ecb92fc-8aae-4df0-9e73-651aaf1a3339"
         },
         {
-          "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9084/7d2e3cfa-73cc-4996-9400-9d6367d76fe4"
+          "logo": "https://data.decoassets.com/maratonatechdev/d03d2d6a-b6a3-4ad3-b8d3-01bae1415e1f/1742304206679-7d2e3cfa-73cc-4996-9400-9d6367d76fe4"
         }
       ]
     },
