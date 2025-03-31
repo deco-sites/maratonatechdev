@@ -21,13 +21,13 @@ export default function Section(
     founders = [
       {
         logo:
-          "https://assets.decocache.com/maratonatechdev/da31e2e2-b2d6-491a-9a11-a2fd61c7f04d/logo-cactus.png",
+          "https://assets.decocache.com/maratonatechdev/f5e2acb6-23c0-4f71-9b14-56b6d4be2062/cactus.svg",
         text:
           "Uma ONG que busca, através da educação e da criação de uma cultura de protagonismo, transformar a vida dos jovens nos contextos mais agrestes, garantindo educação de qualidade e gerando equidade no sistema de ensino público.",
       },
       {
         logo:
-          "https://assets.decocache.com/maratonatechdev/857b906d-8d4e-4dc8-bda8-499e3448884f/logo-movtech.png",
+          "https://assets.decocache.com/maratonatechdev/1f9e0183-e5eb-4e9d-9aed-74fb4d83ddfa/mov2030.svg",
         text:
           "Coalizão de organizações comprometidas com o futuro da tecnologia no Brasil, por meio da inclusão produtiva, que mobiliza o ecossistema, alavanca projetos, e dissemina conhecimento para melhores práticas no setor.",
       },
