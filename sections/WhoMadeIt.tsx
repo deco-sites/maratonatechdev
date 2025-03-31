@@ -21,13 +21,13 @@ export default function Section(
     founders = [
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/logo-cactus.png",
+          "https://assets.decocache.com/maratonatechdev/da31e2e2-b2d6-491a-9a11-a2fd61c7f04d/logo-cactus.png",
         text:
           "Uma ONG que busca, através da educação e da criação de uma cultura de protagonismo, transformar a vida dos jovens nos contextos mais agrestes, garantindo educação de qualidade e gerando equidade no sistema de ensino público.",
       },
       {
         logo:
-          "https://homologacao.gestaodetrafegonext.com.br/maratona-tech/public/images/maratona-tech/marcas/logo-movtech.png",
+          "https://assets.decocache.com/maratonatechdev/857b906d-8d4e-4dc8-bda8-499e3448884f/logo-movtech.png",
         text:
           "Coalizão de organizações comprometidas com o futuro da tecnologia no Brasil, por meio da inclusão produtiva, que mobiliza o ecossistema, alavanca projetos, e dissemina conhecimento para melhores práticas no setor.",
       },

@@ -119,7 +119,8 @@
       "cta": {
         "text": "ACESSE O PORTAL OLÍMPICO",
         "href": "https://portalolimpico.com.br"
-      }
+      },
+      "mainImage": "https://assets.decocache.com/maratonatechdev/be4075d9-44b7-4f92-963f-423379f8e896/mapa.svg"
     },
     {
       "__resolveType": "site/sections/ActionsAndVideo.tsx",

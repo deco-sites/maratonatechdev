@@ -14,6 +14,16 @@ export interface Props {
    * @language html
    * @default Click here to tweak this text however you want.
    */
+  /**
+   * @description Background image for desktop version
+   */
+  desktopBackgroundImage?: ImageWidget;
+  /**
+   * @description Background image for mobile version
+   */
+  mobileBackgroundImage?: ImageWidget;
+  /**
+   */
   title?: string;
   /**
    * @format code
@@ -38,6 +48,8 @@ export default function HeroFlats({
     "<div class='flex flex-col lg:flex-row items-center lg:items-start jusitfy-between space-x-4 my-3'><p class='text-sm text-center lg:text-left'>De agosto a setembro de 2024 na sua escola</p><div class='flex flex-row gap-3'><a href='https://www.instagram.com/maratonatech/' target='_blank' class='text-yellow-500 text-lg'><ion-icon name='logo-instagram' role='img' class='md hydrated'></ion-icon></a><a href='https://www.youtube.com/channel/UCt8_P6TgAA65FgbWgxydwBQ' target='_blank' class='text-yellow-500 text-lg'><ion-icon name='logo-youtube' role='img' class='md hydrated'></ion-icon></a><a href='https://www.tiktok.com/maratonatech' target='_blank' class='text-yellow-500 text-lg'><ion-icon name='logo-tiktok' role='img' class='md hydrated'></ion-icon></a></div></div>",
   image,
   placement = "left",
+  desktopBackgroundImage = "https://assets.decocache.com/maratonatechdev/a8dc4215-e1fa-4697-9750-0df355226ac4/bg-hero.jpg",
+  mobileBackgroundImage = "https://assets.decocache.com/maratonatechdev/f27925dc-20e2-40a7-96e7-337fc7f8c762/bg-hero_mobile.jpg",
   cta = [
     { id: "change-me-1", href: "/", text: "Change me", outline: false },
     { id: "change-me-2", href: "/", text: "Change me", outline: true },
@@ -46,7 +58,7 @@ export default function HeroFlats({
   return (
     <section
       id="hero"
-      class="bg-black min-h-[930px] lg:min-h-[828px] lg:flex lg:flex-col lg:items-center text-white bg-[center_top_1rem]"
+      class="bg-black min-h-[930px] lg:min-h-[828px] lg:flex lg:flex-col lg:items-center text-white bg-[center_top_1rem] bg-cover bg-no-repeat"
     >
       <div className="w-full bg-red-600 p-3 text-center text-white">
         <h1 className="lg:text-xl font-bold">Inscrições Encerradas</h1>
@@ -114,6 +126,14 @@ export default function HeroFlats({
           </div>
         </div>
       </nav>
+      <style jsx>{`
+        @media (min-width: 1024px) {
+          #hero { background-image: url(${desktopBackgroundImage}); }
+        }
+        @media (max-width: 1023px) {
+          #hero { background-image: url(${mobileBackgroundImage}); }
+        }
+      `}</style>
     </section>
   );
 }
