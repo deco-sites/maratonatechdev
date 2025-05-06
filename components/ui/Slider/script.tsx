@@ -1,4 +1,5 @@
-import { useScript as scriptAsDataURI } from "@deco/deco/blocks";
+import { useScript } from "@deco/deco/hooks";
+
 export interface Props {
     rootId: string;
     scroll?: "smooth" | "auto";
@@ -134,6 +135,6 @@ const setup = ({ rootId, scroll, interval, infinite }: Props) => {
     };
 };
 function Slider({ rootId, scroll = "smooth", interval, infinite = false, }: Props) {
-    return (<script defer src={scriptAsDataURI(setup, { rootId, scroll, interval, infinite })}/>);
+    return (<script defer src={useScript(setup, { rootId, scroll, interval, infinite })}/>);
 }
 export default Slider;
